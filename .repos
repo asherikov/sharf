@@ -1,0 +1,13 @@
+repositories:
+    ariles:
+        type: git
+        url: https://github.com/asherikov/ariles.git
+        version: pkg_ws_2
+    intrometry:
+        type: git
+        url: https://github.com/asherikov/intrometry.git
+        version: main
+    thread_supervisor:
+        type: git
+        url: https://github.com/asherikov/thread_supervisor.git
+        version: master

@@ -1,0 +1,126 @@
+on: [push, pull_request]
+
+jobs:
+    jammy_static:
+        runs-on: ubuntu-22.04
+        env:
+            BUILD_PROFILE: static_checks
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  repository: asherikov/ccws
+            - uses: actions/checkout@v4
+              with:
+                  ref: main
+                  path: src
+            - run: make bp_install_build
+            - run: make wsupdate
+            - run: make dep_install
+            - run: make
+
+    jammy_tidy:
+        runs-on: ubuntu-22.04
+        env:
+            BUILD_PROFILE: scan_build
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  repository: asherikov/ccws
+            - uses: actions/checkout@v4
+              with:
+                  ref: main
+                  path: src
+            - run: make bp_install_build
+            - run: make wsupdate
+            - run: make dep_install
+            - run: make
+
+    jammy_reldebug:
+        runs-on: ubuntu-22.04
+        env:
+            BUILD_PROFILE: reldebug
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  repository: asherikov/ccws
+            - uses: actions/checkout@v4
+              with:
+                  ref: main
+                  path: src
+            - run: make bp_install_build
+            - run: make wsupdate
+            - run: make dep_install
+            - run: make
+            - run: make test
+
+    jammy_addr_sanitizer:
+        runs-on: ubuntu-22.04
+        env:
+            BUILD_PROFILE: addr_undef_sanitizers
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  repository: asherikov/ccws
+            - uses: actions/checkout@v4
+              with:
+                  ref: main
+                  path: src
+            - run: make bp_install_build
+            - run: make wsupdate
+            - run: make dep_install
+            - run: make
+            - run: make test
+
+    jammy_thread_sanitizer:
+        runs-on: ubuntu-22.04
+        env:
+            BUILD_PROFILE: thread_sanitizer
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  repository: asherikov/ccws
+            - uses: actions/checkout@v4
+              with:
+                  ref: main
+                  path: src
+            - run: make bp_install_build
+            - run: make wsupdate
+            - run: make dep_install
+            - run: make
+            - run: make test
+
+    jammy_doxygen:
+        runs-on: ubuntu-22.04
+        env:
+            BUILD_PROFILE: doxygen
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  repository: asherikov/ccws
+            - uses: actions/checkout@v4
+              with:
+                  ref: main
+                  path: src
+            - run: make bp_install_build
+            - run: make wsupdate
+            - run: make dep_install
+            - run: make
+
+    jammy_deb:
+        runs-on: ubuntu-22.04
+        env:
+            EMAIL: example@example.com
+            AUTHOR: CI
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  repository: asherikov/ccws
+            - uses: actions/checkout@v4
+              with:
+                  ref: main
+                  path: src
+            - run: make bp_install_build BUILD_PROFILE=reldebug
+            - run: make bp_install_build BUILD_PROFILE=deb
+            - run: make wsupdate
+            - run: make dep_install
+            - run: make BUILD_PROFILE=deb BASE_BUILD_PROFILE=reldebug
