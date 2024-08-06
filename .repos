@@ -1,0 +1,17 @@
+repositories:
+    ariles:
+        type: git
+        url: https://github.com/asherikov/ariles.git
+        version: pkg_ws_2
+    graphite_to_mcap:
+        type: git
+        url: https://github.com/asherikov/graphite_to_mcap.git
+        version: main
+    intrometry:
+        type: git
+        url: https://github.com/asherikov/intrometry.git
+        version: main
+    thread_supervisor:
+        type: git
+        url: https://github.com/asherikov/thread_supervisor.git
+        version: master
