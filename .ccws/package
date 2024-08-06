@@ -1,0 +1,10 @@
+thread_supervisor
+ariles2_core_ws
+ariles2_graphviz_ws
+ariles2_namevalue2_ws
+ariles2_octave_ws
+ariles2_pugixml_ws
+ariles2_rapidjson_ws
+ariles2_ros2param_ws
+ariles2_yamlcpp_ws
+intrometry
