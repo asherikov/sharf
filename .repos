@@ -11,6 +11,10 @@ repositories:
         type: git
         url: https://github.com/asherikov/intrometry.git
         version: main
+    pjmsg_mcap_wrapper:
+        type: git
+        url: https://github.com/asherikov/pjmsg_mcap_wrapper.git
+        version: main
     thread_supervisor:
         type: git
         url: https://github.com/asherikov/thread_supervisor.git
