@@ -1,133 +1,117 @@
 on: [push, pull_request]
 
 jobs:
-    ubuntu_latest_static:
+    static:
+        container: asherikov/ccws
         runs-on: ubuntu-latest
         env:
             BUILD_PROFILE: static_checks
         steps:
             - uses: actions/checkout@v4
-              with:
-                  repository: asherikov/ccws
-            - uses: actions/checkout@v4
-              with:
-                  ref: main
-                  path: src
-            - run: make bp_install_build
-            - run: make wsupdate_pkgs_shallow
-            - run: rm -rf src/ariles/ariles2_rosparam_ws
-            - run: make
+            - run: |
+                cd /ccws
+                export WORKSPACE_SRC=${GITHUB_WORKSPACE}
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                make
 
-    ubuntu_latest_tidy:
+    tidy:
+        container: asherikov/ccws
         runs-on: ubuntu-latest
         env:
             BUILD_PROFILE: scan_build
         steps:
             - uses: actions/checkout@v4
-              with:
-                  repository: asherikov/ccws
-            - uses: actions/checkout@v4
-              with:
-                  ref: main
-                  path: src
-            - run: make bp_install_build
-            - run: make wsupdate_pkgs_shallow
-            - run: make dep_install
-            - run: rm -rf src/ariles/ariles2_rosparam_ws
-            - run: make build_all
+            - run: |
+                cd /ccws
+                export WORKSPACE_SRC=${GITHUB_WORKSPACE}
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                apt update
+                make dep_install
+                make build_all
 
-    ubuntu_latest_reldebug:
+    reldebug:
+        container: asherikov/ccws
         runs-on: ubuntu-latest
         env:
             BUILD_PROFILE: reldebug
         steps:
             - uses: actions/checkout@v4
-              with:
-                  repository: asherikov/ccws
-            - uses: actions/checkout@v4
-              with:
-                  ref: main
-                  path: src
-            - run: make bp_install_build
-            - run: make wsupdate_pkgs_shallow
-            - run: make dep_install
-            - run: rm -rf src/ariles/ariles2_rosparam_ws
-            - run: make build_all
-            - run: make wstest
+            - run: |
+                cd /ccws
+                export WORKSPACE_SRC=${GITHUB_WORKSPACE}
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                apt update
+                make dep_install
+                make build_all
+                make wstest
 
-    ubuntu_latest_addr_sanitizer:
+    addr_sanitizer:
+        container: asherikov/ccws
         runs-on: ubuntu-latest
         env:
             BUILD_PROFILE: addr_undef_sanitizers
         steps:
             - uses: actions/checkout@v4
-              with:
-                  repository: asherikov/ccws
-            - uses: actions/checkout@v4
-              with:
-                  ref: main
-                  path: src
-            - run: make bp_install_build
-            - run: make wsupdate_pkgs_shallow
-            - run: make dep_install
-            - run: rm -rf src/ariles/ariles2_rosparam_ws
-            - run: make build_all
-            - run: make wstest
+            - run: |
+                cd /ccws
+                export WORKSPACE_SRC=${GITHUB_WORKSPACE}
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                apt update
+                make dep_install
+                make build_all
+                make wstest
 
-    ubuntu_latest_thread_sanitizer:
+    thread_sanitizer:
+        container: asherikov/ccws
         runs-on: ubuntu-latest
         env:
             BUILD_PROFILE: thread_sanitizer
         steps:
             - uses: actions/checkout@v4
-              with:
-                  repository: asherikov/ccws
-            - uses: actions/checkout@v4
-              with:
-                  ref: main
-                  path: src
-            - run: make bp_install_build
-            - run: make wsupdate_pkgs_shallow
-            - run: make dep_install
-            - run: rm -rf src/ariles/ariles2_rosparam_ws
-            - run: echo "race:libfastrtps.so.*" >> ccws/profiles/build/thread_sanitizer/thread.supp
-            - run: make build_all
-            - run: make wstest
+            - run: |
+                cd /ccws
+                export WORKSPACE_SRC=${GITHUB_WORKSPACE}
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                echo "race:libfastrtps.so.*" >> /ccws/ccws/profiles/build/thread_sanitizer/thread.supp
+                apt update
+                make dep_install
+                make build_all
+                make wstest
 
-    ubuntu_latest_doxygen:
+    doxygen:
+        container: asherikov/ccws
         runs-on: ubuntu-latest
         env:
             BUILD_PROFILE: doxygen
         steps:
             - uses: actions/checkout@v4
-              with:
-                  repository: asherikov/ccws
-            - uses: actions/checkout@v4
-              with:
-                  ref: main
-                  path: src
-            - run: make bp_install_build
-            - run: make wsupdate_pkgs_shallow
-            - run: make dep_install
-            - run: rm -rf src/ariles/ariles2_rosparam_ws
-            - run: make
+            - run: |
+                cd /ccws
+                export WORKSPACE_SRC=${GITHUB_WORKSPACE}
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                make
 
-    ubuntu_latest_deb:
+    deb:
+        container:
+            image: asherikov/ccws
+            options: --security-opt seccomp:unconfined
         runs-on: ubuntu-latest
         env:
             EMAIL: example@example.com
             AUTHOR: CI
         steps:
             - uses: actions/checkout@v4
-              with:
-                  repository: asherikov/ccws
-            - uses: actions/checkout@v4
-              with:
-                  ref: main
-                  path: src
-            - run: make bp_install_build BUILD_PROFILE=reldebug
-            - run: make bp_install_build BUILD_PROFILE=deb
-            - run: make wsupdate_pkgs_shallow
-            - run: make dep_install
-            - run: rm -rf src/ariles/ariles2_rosparam_ws
-            - run: make build_all BUILD_PROFILE=deb BASE_BUILD_PROFILE=reldebug VENDOR=sharf
+            - run: |
+                cd /ccws
+                export WORKSPACE_SRC=${GITHUB_WORKSPACE}
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                apt update
+                make dep_install
+                make build_all BUILD_PROFILE=deb,reldebug VENDOR=sharf
