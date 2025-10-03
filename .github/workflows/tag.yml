@@ -1,0 +1,39 @@
+on:
+    push:
+        tags:
+            - '**'
+
+jobs:
+    gh_pages:
+        container: asherikov/ccws
+        runs-on: ubuntu-latest
+
+        env:
+            BUILD_PROFILE: doxygen
+
+        permissions:
+            contents: write
+
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                submodules: true
+                fetch-depth: 0
+            - run: |
+                git config --global user.name github-actions
+                git config --global user.email github-actions@github.com
+                git config --global --add safe.directory '*'
+            - run: |
+                cd /ccws
+                export WORKSPACE_SRC=${GITHUB_WORKSPACE}
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                make
+            - run: |
+                cd ${GITHUB_WORKSPACE}/gh-pages
+                git checkout gh-pages
+                find ./ -not -name '.*' -maxdepth 1 | xargs rm -rf
+                cp -r /ccws/workspace/artifacts/doxygen/* ./
+                git add -f *
+                git commit -a -m "Automated update ${{ github.ref_name }}"
+                git push
