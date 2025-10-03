@@ -1,0 +1,7 @@
+<map id="eprosima::fastcdr::exception::LockedExternalAccessException" name="eprosima::fastcdr::exception::LockedExternalAccessException">
+<area shape="rect" id="Node000001" title="This class is thrown as an exception when accessing to set the value of a locked external." alt="" coords="5,167,244,221"/>
+<area shape="rect" id="Node000002" href="$classeprosima_1_1fastcdr_1_1exception_1_1Exception.html" title="This abstract class is used to create exceptions." alt="" coords="45,79,204,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,132,127,167,122,167,122,132"/>
+<area shape="rect" id="Node000003" href="/ccws/ccws/profiles/build/doxygen/cppreference-doxygen-web.tag.xml$cpp/error/exception.html" title=" " alt="" coords="67,5,182,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,44,127,79,122,79,122,44"/>
+</map>

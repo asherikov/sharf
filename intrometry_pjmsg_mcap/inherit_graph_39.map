@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$structmcap_1_1IReadable.html" title="An abstract interface for reading MCAP data." alt="" coords="5,55,136,80"/>
+<area shape="rect" id="Node000001" href="$classmcap_1_1FileReader.html" title="IReadable implementation wrapping a FILE* pointer created by fopen() and a read buffer." alt="" coords="215,5,350,31"/>
+<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="138,49,227,28,228,33,140,54"/>
+<area shape="rect" id="Node000002" href="$classmcap_1_1FileStreamReader.html" title="IReadable implementation wrapping a std::ifstream input file stream." alt="" coords="191,55,374,80"/>
+<area shape="poly" id="edge5_Node000000_Node000002" title=" " alt="" coords="150,65,191,65,191,70,150,70"/>
+<area shape="rect" id="Node000003" href="$classmcap_1_1ICompressedReader.html" title="An abstract interface for compressed readers." alt="" coords="184,104,381,129"/>
+<area shape="poly" id="edge6_Node000000_Node000003" title=" " alt="" coords="140,81,228,101,227,107,138,86"/>
+<area shape="rect" id="Node000004" href="$classmcap_1_1BufferReader.html" title="A &quot;null&quot; compressed reader that directly passes through uncompressed data. No internal buffers are al..." alt="" coords="429,55,580,80"/>
+<area shape="poly" id="edge7_Node000003_Node000004" title=" " alt="" coords="353,98,446,77,447,83,354,104"/>
+<area shape="rect" id="Node000005" href="$classmcap_1_1LZ4Reader.html" title="ICompressedReader implementation that decompresses LZ4 (https://lz4.github.io/lz4/) data." alt="" coords="437,104,573,129"/>
+<area shape="poly" id="edge8_Node000003_Node000005" title=" " alt="" coords="395,114,436,114,436,119,395,119"/>
+<area shape="rect" id="Node000006" href="$classmcap_1_1ZStdReader.html" title="ICompressedReader implementation that decompresses Zstandard (https://facebook.github...." alt="" coords="433,153,576,179"/>
+<area shape="poly" id="edge9_Node000003_Node000006" title=" " alt="" coords="354,130,447,151,446,156,353,135"/>
+</map>

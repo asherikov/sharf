@@ -1,0 +1,15 @@
+<map id="mcap::IReadable" name="mcap::IReadable">
+<area shape="rect" id="Node000001" title="An abstract interface for reading MCAP data." alt="" coords="190,5,321,31"/>
+<area shape="rect" id="Node000002" href="$classmcap_1_1FileReader.html" title="IReadable implementation wrapping a FILE* pointer created by fopen() and a read buffer." alt="" coords="5,79,140,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,38,104,81,102,76,212,33"/>
+<area shape="rect" id="Node000003" href="$classmcap_1_1FileStreamReader.html" title="IReadable implementation wrapping a std::ifstream input file stream." alt="" coords="164,79,347,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="258,44,258,79,253,79,253,44"/>
+<area shape="rect" id="Node000004" href="$classmcap_1_1ICompressedReader.html" title="An abstract interface for compressed readers." alt="" coords="371,79,569,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="304,32,436,76,434,81,302,37"/>
+<area shape="rect" id="Node000005" href="$classmcap_1_1BufferReader.html" title="A &quot;null&quot; compressed reader that directly passes through uncompressed data. No internal buffers are al..." alt="" coords="227,152,377,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="432,112,331,154,328,149,429,107"/>
+<area shape="rect" id="Node000006" href="$classmcap_1_1LZ4Reader.html" title="ICompressedReader implementation that decompresses LZ4 (https://lz4.github.io/lz4/) data." alt="" coords="402,152,538,177"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="473,118,473,152,467,152,467,118"/>
+<area shape="rect" id="Node000007" href="$classmcap_1_1ZStdReader.html" title="ICompressedReader implementation that decompresses Zstandard (https://facebook.github...." alt="" coords="563,152,705,177"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="510,107,608,149,606,154,508,112"/>
+</map>

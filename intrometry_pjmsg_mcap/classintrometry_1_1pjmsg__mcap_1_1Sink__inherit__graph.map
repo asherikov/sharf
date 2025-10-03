@@ -1,0 +1,10 @@
+<map id="intrometry::pjmsg_mcap::Sink" name="intrometry::pjmsg_mcap::Sink">
+<area shape="rect" id="Node000001" title="Publish data." alt="" coords="836,13,1017,53"/>
+<area shape="rect" id="Node000002" href="/ccws/workspace/build/doxygen/intrometry_frontend/tags.xml$classintrometry_1_1SinkPIMPLBase.html" title=" " alt="" coords="589,5,787,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="800,30,836,30,836,35,800,35"/>
+<area shape="rect" id="Node000003" href="/ccws/workspace/build/doxygen/intrometry_frontend/tags.xml$classintrometry_1_1Sink.html" title=" " alt="" coords="5,24,132,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="146,28,156,27,361,17,450,16,565,19,589,21,589,26,565,25,450,21,361,22,156,33,146,33"/>
+<area shape="rect" id="Node000004" href="/ccws/workspace/build/doxygen/intrometry_frontend/tags.xml$classintrometry_1_1SinkPIMPLBase.html" title=" " alt="" coords="181,41,383,96"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="146,45,182,51,181,56,145,51"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="396,61,565,49,588,46,589,51,566,54,396,67"/>
+</map>
