@@ -15,7 +15,7 @@ jobs:
             contents: write
 
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
               with:
                 submodules: true
                 fetch-depth: 0
@@ -38,26 +38,26 @@ jobs:
                 git commit -a -m "Automated update ${{ github.ref_name }}"
                 git push
 
-    deb_cloudsmith:
-        container:
-            image: asherikov/ccws
-            options: --security-opt seccomp:unconfined
+    deb_jammy:
         runs-on: ubuntu-latest
-        env:
-            EMAIL: example@example.com
-            AUTHOR: CI
-            CLOUDSMITH_API_KEY: ${{ secrets.CLOUDSMITH_API_KEY }}
+        container:
+            image: asherikov/ccws_jammy
+            options: --security-opt seccomp:unconfined
         steps:
-            - uses: actions/checkout@v4
-            - run: |
-                cd /ccws
-                export WORKSPACE_SRC=${GITHUB_WORKSPACE}
-                make wsupdate_pkgs_shallow
-                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
-                apt update
-                make dep_install
-                make build_all BUILD_PROFILE=deb,reldebug VENDOR=sharf VERSION=all
-            - run: |
-                python3 -m pip install --break-system-packages cloudsmith-cli
-                find ${WORKSPACE_DIR}/artifacts/ -iname *.deb
-                find ${WORKSPACE_DIR}/artifacts/ -iname *.deb | xargs --no-run-if-empty -I {} cloudsmith push deb asherikov-aV7/all/ubuntu/noble {}
+            - uses: actions/checkout@v5
+            - uses: ./.github/actions/deb
+              with:
+                  distro: "jammy"
+                  cloudsmith_token: ${{ secrets.CLOUDSMITH_API_KEY }}
+
+    deb_noble:
+        runs-on: ubuntu-latest
+        container:
+            image: asherikov/ccws_noble
+            options: --security-opt seccomp:unconfined
+        steps:
+            - uses: actions/checkout@v5
+            - uses: ./.github/actions/deb
+              with:
+                  distro: "noble"
+                  cloudsmith_token: ${{ secrets.CLOUDSMITH_API_KEY }}

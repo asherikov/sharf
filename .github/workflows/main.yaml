@@ -7,7 +7,7 @@ jobs:
         env:
             BUILD_PROFILE: static_checks
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - run: |
                 cd /ccws
                 export WORKSPACE_SRC=${GITHUB_WORKSPACE}
@@ -21,7 +21,7 @@ jobs:
         env:
             BUILD_PROFILE: scan_build
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - run: |
                 cd /ccws
                 export WORKSPACE_SRC=${GITHUB_WORKSPACE}
@@ -37,7 +37,7 @@ jobs:
         env:
             BUILD_PROFILE: reldebug
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - run: |
                 cd /ccws
                 export WORKSPACE_SRC=${GITHUB_WORKSPACE}
@@ -54,7 +54,7 @@ jobs:
         env:
             BUILD_PROFILE: addr_undef_sanitizers
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - run: |
                 cd /ccws
                 export WORKSPACE_SRC=${GITHUB_WORKSPACE}
@@ -71,7 +71,7 @@ jobs:
         env:
             BUILD_PROFILE: thread_sanitizer
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - run: |
                 cd /ccws
                 export WORKSPACE_SRC=${GITHUB_WORKSPACE}
@@ -89,7 +89,7 @@ jobs:
         env:
             BUILD_PROFILE: doxygen
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - run: |
                 cd /ccws
                 export WORKSPACE_SRC=${GITHUB_WORKSPACE}
@@ -98,20 +98,10 @@ jobs:
                 make
 
     deb:
-        container:
-            image: asherikov/ccws
-            options: --security-opt seccomp:unconfined
         runs-on: ubuntu-latest
-        env:
-            EMAIL: example@example.com
-            AUTHOR: CI
+        container:
+            image: asherikov/ccws_noble
+            options: --security-opt seccomp:unconfined
         steps:
-            - uses: actions/checkout@v4
-            - run: |
-                cd /ccws
-                export WORKSPACE_SRC=${GITHUB_WORKSPACE}
-                make wsupdate_pkgs_shallow
-                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
-                apt update
-                make dep_install
-                make build_all BUILD_PROFILE=deb,reldebug VENDOR=sharf
+            - uses: actions/checkout@v5
+            - uses: ./.github/actions/deb

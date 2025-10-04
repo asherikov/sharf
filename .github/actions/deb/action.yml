@@ -1,0 +1,33 @@
+# https://docs.github.com/en/actions/tutorials/create-actions/create-a-composite-action
+name: 'Docker action'
+inputs:
+    distro:
+        required: false
+    cloudsmith_token:
+        required: false
+        default: ''
+runs:
+    using: "composite"
+    steps:
+        - uses: actions/checkout@v5
+        - run: |
+            cd /ccws
+            export WORKSPACE_SRC=${GITHUB_WORKSPACE}
+            make wsupdate_pkgs_shallow
+            rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+            apt update
+            make dep_install
+            make build_all BUILD_PROFILE=deb,reldebug VENDOR=sharf VERSION=all
+          env:
+            EMAIL: example@example.com
+            AUTHOR: CI
+            CLOUDSMITH_API_KEY: ${{ inputs.cloudsmith_token }}
+          shell: bash
+        - run: |
+            find ${WORKSPACE_DIR}/artifacts/ -iname *.deb
+          shell: bash
+        - run: |
+            python3 -m pip install --break-system-packages cloudsmith-cli
+            find ${WORKSPACE_DIR}/artifacts/ -iname *.deb | xargs --no-run-if-empty -I {} cloudsmith push deb asherikov-aV7/all/ubuntu/${{ inputs.distro }} {}
+          if: ${{ inputs.cloudsmith_token != '' }}
+          shell: bash
