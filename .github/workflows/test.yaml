@@ -1,0 +1,162 @@
+# https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows
+
+on:
+    workflow_call:
+        inputs:
+            sharf_ref:
+                required: false
+                default: ${{ github.sha }}
+                type: string
+            package_url:
+                required: false
+                default: ''
+                type: string
+            package_version:
+                required: false
+                default: ''
+                type: string
+
+defaults:
+    run:
+        working-directory: /ccws
+
+jobs:
+    static:
+        container: asherikov/ccws
+        runs-on: ubuntu-latest
+        env:
+            BUILD_PROFILE: static_checks
+            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
+        steps:
+            - uses: actions/checkout@v5
+              with:
+                repository: asherikov/sharf
+                ref: ${{ inputs.sharf_ref }}
+            - if: ${{ inputs.package_url != '' }}
+              run: |
+                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+            - run: |
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                make
+
+    tidy:
+        container: asherikov/ccws
+        runs-on: ubuntu-latest
+        env:
+            BUILD_PROFILE: scan_build
+            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
+        steps:
+            - uses: actions/checkout@v5
+              with:
+                repository: asherikov/sharf
+                ref: ${{ inputs.sharf_ref }}
+            - if: ${{ inputs.package_url != '' }}
+              run: |
+                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+            - run: |
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                apt update
+                make dep_install
+                make build_all
+
+    reldebug:
+        container: asherikov/ccws
+        runs-on: ubuntu-latest
+        env:
+            BUILD_PROFILE: reldebug
+            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
+        steps:
+            - uses: actions/checkout@v5
+              with:
+                repository: asherikov/sharf
+                ref: ${{ inputs.sharf_ref }}
+            - if: ${{ inputs.package_url != '' }}
+              run: |
+                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+            - run: |
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                apt update
+                make dep_install
+                make build_all
+                make wstest
+
+    addr_sanitizer:
+        container: asherikov/ccws
+        runs-on: ubuntu-latest
+        env:
+            BUILD_PROFILE: addr_undef_sanitizers
+            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
+        steps:
+            - uses: actions/checkout@v5
+              with:
+                repository: asherikov/sharf
+                ref: ${{ inputs.sharf_ref }}
+            - if: ${{ inputs.package_url != '' }}
+              run: |
+                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+            - run: |
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                apt update
+                make dep_install
+                make build_all
+                make wstest
+
+    thread_sanitizer:
+        container: asherikov/ccws
+        runs-on: ubuntu-latest
+        env:
+            BUILD_PROFILE: thread_sanitizer
+            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
+        steps:
+            - uses: actions/checkout@v5
+              with:
+                repository: asherikov/sharf
+                ref: ${{ inputs.sharf_ref }}
+            - if: ${{ inputs.package_url != '' }}
+              run: |
+                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+            - run: |
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                echo "race:libfastrtps.so.*" >> /ccws/ccws/profiles/build/thread_sanitizer/thread.supp
+                apt update
+                make dep_install
+                make build_all
+                make wstest
+
+    doxygen:
+        container: asherikov/ccws
+        runs-on: ubuntu-latest
+        env:
+            BUILD_PROFILE: doxygen
+            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
+        steps:
+            - uses: actions/checkout@v5
+              with:
+                repository: asherikov/sharf
+                ref: ${{ inputs.sharf_ref }}
+            - if: ${{ inputs.package_url != '' }}
+              run: |
+                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+            - run: |
+                make wsupdate_pkgs_shallow
+                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+                make
+
+    deb:
+        runs-on: ubuntu-latest
+        container:
+            image: asherikov/ccws_noble
+            options: --security-opt seccomp:unconfined
+        steps:
+            - uses: actions/checkout@v5
+              with:
+                repository: asherikov/sharf
+                ref: ${{ inputs.sharf_ref }}
+            - uses: ./.github/actions/deb
+              with:
+                sharf_ref: ${{ inputs.sharf_ref }}

@@ -6,10 +6,28 @@ inputs:
     cloudsmith_token:
         required: false
         default: ''
+    sharf_ref:
+        required: false
+        default: ${{ github.sha }}
+    package_url:
+        required: false
+        default: ''
+    package_version:
+        required: false
+        default: ''
 runs:
     using: "composite"
     steps:
         - uses: actions/checkout@v5
+          with:
+            ref: ${{ inputs.sharf_ref }}
+            repository: asherikov/sharf
+        - if: ${{ inputs.package_url != '' }}
+          run: |
+            cd /ccws
+            export WORKSPACE_SRC=${GITHUB_WORKSPACE}
+            make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+          shell: bash
         - run: |
             cd /ccws
             export WORKSPACE_SRC=${GITHUB_WORKSPACE}
