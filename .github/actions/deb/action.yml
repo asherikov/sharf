@@ -9,10 +9,10 @@ inputs:
     sharf_ref:
         required: false
         default: ${{ github.sha }}
-    package_url:
+    package_version:
         required: false
         default: ''
-    package_version:
+    package_github_repo:
         required: false
         default: ''
 runs:
@@ -22,11 +22,11 @@ runs:
           with:
             ref: ${{ inputs.sharf_ref }}
             repository: asherikov/sharf
-        - if: ${{ inputs.package_url != '' }}
+        - if: ${{ inputs.package_github_repo != '' }}
           run: |
             cd /ccws
             export WORKSPACE_SRC=${GITHUB_WORKSPACE}
-            make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+            make set_repo_version REPO=${{ github.server_url }}/${{ inputs.package_github_repo }}.git VERSION=${{ inputs.package_version }}
           shell: bash
         - run: |
             cd /ccws

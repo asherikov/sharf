@@ -7,7 +7,7 @@ on:
                 required: false
                 default: ${{ github.sha }}
                 type: string
-            package_url:
+            package_github_repo:
                 required: false
                 default: ''
                 type: string
@@ -20,21 +20,24 @@ defaults:
     run:
         working-directory: /ccws
 
+env:
+    WORKSPACE_SRC: ${GITHUB_WORKSPACE}
+    GITHUB_REPO: ${{ github.server_url }}/${{ inputs.package_github_repo }}.git
+
 jobs:
     static:
         container: asherikov/ccws
         runs-on: ubuntu-latest
         env:
             BUILD_PROFILE: static_checks
-            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
         steps:
             - uses: actions/checkout@v5
               with:
                 repository: asherikov/sharf
                 ref: ${{ inputs.sharf_ref }}
-            - if: ${{ inputs.package_url != '' }}
+            - if: ${{ inputs.package_github_repo != '' }}
               run: |
-                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+                make set_repo_version REPO=${GITHUB_REPO} VERSION=${{ inputs.package_version }}
             - run: |
                 make wsupdate_pkgs_shallow
                 rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
@@ -45,15 +48,14 @@ jobs:
         runs-on: ubuntu-latest
         env:
             BUILD_PROFILE: scan_build
-            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
         steps:
             - uses: actions/checkout@v5
               with:
                 repository: asherikov/sharf
                 ref: ${{ inputs.sharf_ref }}
-            - if: ${{ inputs.package_url != '' }}
+            - if: ${{ inputs.package_github_repo != '' }}
               run: |
-                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+                make set_repo_version REPO=${GITHUB_REPO} VERSION=${{ inputs.package_version }}
             - run: |
                 make wsupdate_pkgs_shallow
                 rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
@@ -66,15 +68,14 @@ jobs:
         runs-on: ubuntu-latest
         env:
             BUILD_PROFILE: reldebug
-            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
         steps:
             - uses: actions/checkout@v5
               with:
                 repository: asherikov/sharf
                 ref: ${{ inputs.sharf_ref }}
-            - if: ${{ inputs.package_url != '' }}
+            - if: ${{ inputs.package_github_repo != '' }}
               run: |
-                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+                make set_repo_version REPO=${GITHUB_REPO} VERSION=${{ inputs.package_version }}
             - run: |
                 make wsupdate_pkgs_shallow
                 rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
@@ -88,15 +89,11 @@ jobs:
         runs-on: ubuntu-latest
         env:
             BUILD_PROFILE: addr_undef_sanitizers
-            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
         steps:
             - uses: actions/checkout@v5
               with:
                 repository: asherikov/sharf
                 ref: ${{ inputs.sharf_ref }}
-            - if: ${{ inputs.package_url != '' }}
-              run: |
-                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
             - run: |
                 make wsupdate_pkgs_shallow
                 rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
@@ -110,15 +107,14 @@ jobs:
         runs-on: ubuntu-latest
         env:
             BUILD_PROFILE: thread_sanitizer
-            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
         steps:
             - uses: actions/checkout@v5
               with:
                 repository: asherikov/sharf
                 ref: ${{ inputs.sharf_ref }}
-            - if: ${{ inputs.package_url != '' }}
+            - if: ${{ inputs.package_github_repo != '' }}
               run: |
-                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
+                make set_repo_version REPO=${GITHUB_REPO} VERSION=${{ inputs.package_version }}
             - run: |
                 make wsupdate_pkgs_shallow
                 rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
@@ -128,24 +124,23 @@ jobs:
                 make build_all
                 make wstest
 
-    doxygen:
-        container: asherikov/ccws
-        runs-on: ubuntu-latest
-        env:
-            BUILD_PROFILE: doxygen
-            WORKSPACE_SRC: ${GITHUB_WORKSPACE}
-        steps:
-            - uses: actions/checkout@v5
-              with:
-                repository: asherikov/sharf
-                ref: ${{ inputs.sharf_ref }}
-            - if: ${{ inputs.package_url != '' }}
-              run: |
-                make set_repo_version REPO=${{ inputs.package_url }} VERSION=${{ inputs.package_version }}
-            - run: |
-                make wsupdate_pkgs_shallow
-                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
-                make
+#    doxygen:
+#        container: asherikov/ccws
+#        runs-on: ubuntu-latest
+#        env:
+#            BUILD_PROFILE: doxygen
+#        steps:
+#            - uses: actions/checkout@v5
+#              with:
+#                repository: asherikov/sharf
+#                ref: ${{ inputs.sharf_ref }}
+#            - if: ${{ inputs.package_github_repo != '' }}
+#              run: |
+#                make set_repo_version REPO=${GITHUB_REPO} VERSION=${{ inputs.package_version }}
+#            - run: |
+#                make wsupdate_pkgs_shallow
+#                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
+#                make
 
     deb:
         runs-on: ubuntu-latest
