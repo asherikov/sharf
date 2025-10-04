@@ -1,12 +1,16 @@
 # https://docs.github.com/en/actions/tutorials/create-actions/create-a-composite-action
 name: 'Docker action'
 inputs:
-    distro:
+    cloudsmith_repo:
         required: false
+        default: ''
     cloudsmith_token:
         required: false
         default: ''
-    sharf_ref:
+    workspace_github_repo:
+        required: false
+        default: ${{ github.repository }}
+    workspace_version:
         required: false
         default: ${{ github.sha }}
     package_version:
@@ -20,8 +24,8 @@ runs:
     steps:
         - uses: actions/checkout@v5
           with:
-            ref: ${{ inputs.sharf_ref }}
-            repository: asherikov/sharf
+            ref: ${{ inputs.workspace_version }}
+            repository: ${{ inputs.workspace_github_repo }}
         - if: ${{ inputs.package_github_repo != '' }}
           run: |
             cd /ccws
@@ -32,10 +36,10 @@ runs:
             cd /ccws
             export WORKSPACE_SRC=${GITHUB_WORKSPACE}
             make wsupdate_pkgs_shallow
-            rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
             apt update
             make dep_install
-            make build_all BUILD_PROFILE=deb,reldebug VENDOR=sharf VERSION=all
+            # VENDOR=sharf VERSION=all are specified in workspace config (.ccws/config.mk)
+            make build_all BUILD_PROFILE=deb,reldebug
           env:
             EMAIL: example@example.com
             AUTHOR: CI
@@ -44,8 +48,8 @@ runs:
         - run: |
             find ${WORKSPACE_DIR}/artifacts/ -iname *.deb
           shell: bash
-        - run: |
+        - if: ${{ inputs.cloudsmith_repo != '' }}
+          run: |
             python3 -m pip install --break-system-packages cloudsmith-cli
-            find ${WORKSPACE_DIR}/artifacts/ -iname *.deb | xargs --no-run-if-empty -I {} cloudsmith push deb asherikov-aV7/all/ubuntu/${{ inputs.distro }} {}
-          if: ${{ inputs.cloudsmith_token != '' }}
+            find ${WORKSPACE_DIR}/artifacts/ -iname *.deb | xargs --no-run-if-empty -I {} cloudsmith push deb ${{ inputs.cloudsmith_repo }} {}
           shell: bash

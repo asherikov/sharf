@@ -5,7 +5,7 @@ on:
 
 jobs:
     gh_pages:
-        container: asherikov/ccws
+        container: asherikov/ccws_noble
         runs-on: ubuntu-latest
 
         env:
@@ -27,7 +27,6 @@ jobs:
                 cd /ccws
                 export WORKSPACE_SRC=${GITHUB_WORKSPACE}
                 make wsupdate_pkgs_shallow
-                rm -rf ${GITHUB_WORKSPACE}/ariles/ariles2_rosparam_ws
                 make
             - run: |
                 cd ${GITHUB_WORKSPACE}/gh-pages
@@ -47,7 +46,7 @@ jobs:
             - uses: actions/checkout@v5
             - uses: ./.github/actions/deb
               with:
-                  distro: "jammy"
+                  cloudsmith_repo: asherikov-aV7/all/ubuntu/jammy
                   cloudsmith_token: ${{ secrets.CLOUDSMITH_API_KEY }}
 
     deb_noble:
@@ -59,5 +58,5 @@ jobs:
             - uses: actions/checkout@v5
             - uses: ./.github/actions/deb
               with:
-                  distro: "noble"
+                  cloudsmith_repo: asherikov-aV7/all/ubuntu/noble
                   cloudsmith_token: ${{ secrets.CLOUDSMITH_API_KEY }}

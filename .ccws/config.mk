@@ -1,0 +1,2 @@
+VENDOR=sharf
+VERSION=all
