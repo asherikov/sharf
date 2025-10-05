@@ -2,4 +2,8 @@ on: [push, pull_request]
 
 jobs:
     tests:
-        uses: ./.github/workflows/test.yaml
+        uses: asherikov/ccws/.github/workflows/reusable_test.yaml@master
+        with:
+            distro: noble
+            workspace_github_repo: asherikov/sharf
+            workspace_version: ${{ github.sha }}
