@@ -29,9 +29,9 @@
 </g>
 </g>
 <!-- intrometry_pjmsg_mcap -->
-<g id="node3" class="node">
+<g id="node2" class="node">
 <title>intrometry_pjmsg_mcap</title>
-<g id="a_node3"><a xlink:href="../intrometry_pjmsg_mcap/index.html" xlink:title="intrometry_pjmsg_mcap">
+<g id="a_node2"><a xlink:href="../intrometry_pjmsg_mcap/index.html" xlink:title="intrometry_pjmsg_mcap">
 <ellipse fill="none" stroke="black" cx="139" cy="-181" rx="122.68" ry="18"/>
 <text text-anchor="middle" x="139" y="-177.3" font-family="Times,serif" font-size="14.00">intrometry_pjmsg_mcap</text>
 </a>
@@ -45,9 +45,9 @@
 <polygon fill="#0000ff" stroke="#0000ff" points="180.29,-200.1 169.82,-198.47 176.99,-206.27 180.29,-200.1"/>
 </g>
 <!-- intrometry_pjmsg_topic -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>intrometry_pjmsg_topic</title>
-<g id="a_node4"><a xlink:href="../intrometry_pjmsg_topic/index.html" xlink:title="intrometry_pjmsg_topic">
+<g id="a_node3"><a xlink:href="../intrometry_pjmsg_topic/index.html" xlink:title="intrometry_pjmsg_topic">
 <ellipse fill="none" stroke="black" cx="401" cy="-181" rx="120.78" ry="18"/>
 <text text-anchor="middle" x="401" y="-177.3" font-family="Times,serif" font-size="14.00">intrometry_pjmsg_topic</text>
 </a>
@@ -61,52 +61,36 @@
 <polygon fill="#0000ff" stroke="#0000ff" points="363.01,-206.27 370.18,-198.47 359.71,-200.1 363.01,-206.27"/>
 </g>
 <!-- intrometry_frontend -->
-<g id="node2" class="node">
+<g id="node4" class="node">
 <title>intrometry_frontend</title>
-<g id="a_node2"><a xlink:href="../intrometry_frontend/index.html" xlink:title="intrometry_frontend">
+<g id="a_node4"><a xlink:href="../intrometry_frontend/index.html" xlink:title="intrometry_frontend">
 <ellipse fill="none" stroke="black" cx="401" cy="-106" rx="105.08" ry="18"/>
 <text text-anchor="middle" x="401" y="-102.3" font-family="Times,serif" font-size="14.00">intrometry_frontend</text>
 </a>
 </g>
 </g>
-<!-- ariles2_core_ws -->
-<g id="node6" class="node">
-<title>ariles2_core_ws</title>
-<g id="a_node6"><a xlink:href="../ariles2_core_ws/index.html" xlink:title="ariles2_core_ws">
-<ellipse fill="none" stroke="black" cx="1240" cy="-34" rx="83.69" ry="18"/>
-<text text-anchor="middle" x="1240" y="-30.3" font-family="Times,serif" font-size="14.00">ariles2_core_ws</text>
-</a>
-</g>
-</g>
-<!-- intrometry_frontend&#45;&gt;ariles2_core_ws -->
-<g id="edge7" class="edge">
-<title>intrometry_frontend&#45;&gt;ariles2_core_ws</title>
-<path fill="none" stroke="#0000ff" d="M463.82,-90.54C485.88,-86.26 510.87,-81.89 533.88,-79.01 752.49,-51.6 1011.3,-40.51 1146.73,-36.32"/>
-<path fill="none" stroke="#ff0000" d="M464.2,-92.51C486.23,-88.23 511.21,-83.86 534.12,-80.99 752.58,-53.6 1011.38,-42.51 1146.79,-38.32"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="1147.2,-40.81 1157.09,-37 1146.99,-33.81 1147.2,-40.81"/>
-</g>
 <!-- intrometry_pjmsg_mcap&#45;&gt;intrometry_frontend -->
-<g id="edge5" class="edge">
+<g id="edge6" class="edge">
 <title>intrometry_pjmsg_mcap&#45;&gt;intrometry_frontend</title>
 <path fill="none" stroke="#0000ff" d="M193.34,-163.82C235.58,-152.05 294.12,-135.74 338.24,-123.45"/>
 <path fill="none" stroke="#ff0000" d="M193.87,-165.75C236.12,-153.98 294.66,-137.67 338.77,-125.38"/>
 <polygon fill="#0000ff" stroke="#0000ff" points="339.56,-127.75 348.25,-121.7 337.68,-121.01 339.56,-127.75"/>
 </g>
 <!-- ariles2_namevalue2_ws -->
-<g id="node7" class="node">
+<g id="node5" class="node">
 <title>ariles2_namevalue2_ws</title>
-<g id="a_node7"><a xlink:href="../ariles2_namevalue2_ws/index.html" xlink:title="ariles2_namevalue2_ws">
-<ellipse fill="none" stroke="black" cx="1367" cy="-106" rx="120.48" ry="18"/>
-<text text-anchor="middle" x="1367" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_namevalue2_ws</text>
+<g id="a_node5"><a xlink:href="../ariles2_namevalue2_ws/index.html" xlink:title="ariles2_namevalue2_ws">
+<ellipse fill="none" stroke="black" cx="1580" cy="-106" rx="120.48" ry="18"/>
+<text text-anchor="middle" x="1580" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_namevalue2_ws</text>
 </a>
 </g>
 </g>
 <!-- intrometry_pjmsg_mcap&#45;&gt;ariles2_namevalue2_ws -->
-<g id="edge6" class="edge">
+<g id="edge5" class="edge">
 <title>intrometry_pjmsg_mcap&#45;&gt;ariles2_namevalue2_ws</title>
-<path fill="none" stroke="#0000ff" d="M222.17,-166.74C238.32,-164.8 255.11,-163.08 270.93,-162 324.55,-158.34 1184.21,-163.66 1236.82,-154.02 1266.43,-148.61 1298.33,-136.93 1323.04,-126.47"/>
-<path fill="none" stroke="#ff0000" d="M222.41,-168.73C238.52,-166.79 255.31,-165.07 271.07,-164 324.54,-160.34 1184.2,-165.66 1237.18,-155.98 1267.12,-150.49 1299.02,-138.81 1323.82,-128.31"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="1325.1,-130.48 1332.88,-123.3 1322.32,-124.06 1325.1,-130.48"/>
+<path fill="none" stroke="#0000ff" d="M222.17,-166.72C238.32,-164.78 255.11,-163.07 270.93,-162 336.36,-157.59 1385.57,-165.74 1449.82,-154.02 1479.43,-148.64 1511.34,-136.95 1536.04,-126.49"/>
+<path fill="none" stroke="#ff0000" d="M222.41,-168.71C238.52,-166.77 255.31,-165.06 271.07,-164 336.34,-159.59 1385.55,-167.74 1450.18,-155.98 1480.12,-150.51 1512.02,-138.83 1536.82,-128.33"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1538.1,-130.5 1545.89,-123.31 1535.32,-124.08 1538.1,-130.5"/>
 </g>
 <!-- intrometry_pjmsg_topic&#45;&gt;intrometry_frontend -->
 <g id="edge3" class="edge">
@@ -118,112 +102,128 @@
 <!-- intrometry_pjmsg_topic&#45;&gt;ariles2_namevalue2_ws -->
 <g id="edge4" class="edge">
 <title>intrometry_pjmsg_topic&#45;&gt;ariles2_namevalue2_ws</title>
-<path fill="none" stroke="#0000ff" d="M520.88,-177.56C735.36,-174.66 1168.79,-167.24 1236.81,-154.02 1266.16,-148.33 1297.82,-136.76 1322.47,-126.44"/>
-<path fill="none" stroke="#ff0000" d="M520.9,-179.56C735.39,-176.66 1168.82,-169.24 1237.19,-155.98 1266.85,-150.21 1298.51,-138.64 1323.24,-128.28"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="1324.48,-130.47 1332.3,-123.32 1321.73,-124.04 1324.48,-130.47"/>
+<path fill="none" stroke="#0000ff" d="M521.58,-178.36C777.94,-176.67 1361.08,-170.98 1449.81,-154.02 1479.28,-148.4 1511.06,-136.77 1535.75,-126.4"/>
+<path fill="none" stroke="#ff0000" d="M521.59,-180.36C777.96,-178.67 1361.1,-172.98 1450.19,-155.98 1479.97,-150.28 1511.75,-138.65 1536.52,-128.24"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1537.78,-130.42 1545.58,-123.26 1535.01,-123.99 1537.78,-130.42"/>
 </g>
-<!-- ariles2_octave_ws -->
-<g id="node5" class="node">
-<title>ariles2_octave_ws</title>
-<g id="a_node5"><a xlink:href="../ariles2_octave_ws/index.html" xlink:title="ariles2_octave_ws">
-<ellipse fill="none" stroke="black" cx="1599" cy="-106" rx="94.48" ry="18"/>
-<text text-anchor="middle" x="1599" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_octave_ws</text>
+<!-- ariles2_core_ws -->
+<g id="node8" class="node">
+<title>ariles2_core_ws</title>
+<g id="a_node8"><a xlink:href="../ariles2_core_ws/index.html" xlink:title="ariles2_core_ws">
+<ellipse fill="none" stroke="black" cx="1207" cy="-34" rx="83.69" ry="18"/>
+<text text-anchor="middle" x="1207" y="-30.3" font-family="Times,serif" font-size="14.00">ariles2_core_ws</text>
 </a>
 </g>
 </g>
-<!-- ariles2_octave_ws&#45;&gt;ariles2_core_ws -->
-<g id="edge12" class="edge">
-<title>ariles2_octave_ws&#45;&gt;ariles2_core_ws</title>
-<path fill="none" stroke="#0000ff" d="M1544.65,-92.15C1528.94,-88.32 1511.71,-84.31 1495.8,-80.98 1435.37,-68.35 1366.38,-56.36 1315.27,-47.94"/>
-<path fill="none" stroke="#ff0000" d="M1545.13,-90.21C1529.4,-86.37 1512.17,-82.36 1496.2,-79.02 1435.71,-66.38 1366.72,-54.39 1315.6,-45.97"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="1315.89,-43.48 1305.46,-45.32 1314.76,-50.39 1315.89,-43.48"/>
+<!-- intrometry_frontend&#45;&gt;ariles2_core_ws -->
+<g id="edge7" class="edge">
+<title>intrometry_frontend&#45;&gt;ariles2_core_ws</title>
+<path fill="none" stroke="#0000ff" d="M463.82,-90.58C485.89,-86.3 510.87,-81.93 533.87,-79.01 740.23,-52.81 984.14,-41.3 1114.24,-36.71"/>
+<path fill="none" stroke="#ff0000" d="M464.2,-92.55C486.23,-88.27 511.21,-83.9 534.13,-80.99 740.32,-54.81 984.23,-43.3 1114.31,-38.71"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1114.72,-41.2 1124.59,-37.35 1114.48,-34.2 1114.72,-41.2"/>
 </g>
 <!-- ariles2_namevalue2_ws&#45;&gt;ariles2_core_ws -->
 <g id="edge13" class="edge">
 <title>ariles2_namevalue2_ws&#45;&gt;ariles2_core_ws</title>
-<path fill="none" stroke="#0000ff" d="M1336.42,-89.29C1318.77,-79.56 1296.31,-67.18 1277.45,-56.79"/>
-<path fill="none" stroke="#ff0000" d="M1337.39,-87.54C1319.74,-77.81 1297.27,-65.43 1278.42,-55.03"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="1279.45,-52.75 1269.01,-50.99 1276.08,-58.88 1279.45,-52.75"/>
+<path fill="none" stroke="#0000ff" d="M1509.32,-92.34C1490.03,-88.63 1469.12,-84.63 1449.81,-80.98 1392.15,-70.1 1326.74,-58 1278.33,-49.09"/>
+<path fill="none" stroke="#ff0000" d="M1509.7,-90.37C1490.41,-86.66 1469.5,-82.66 1450.19,-79.02 1392.52,-68.13 1327.11,-56.03 1278.69,-47.13"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1278.91,-44.62 1268.44,-46.26 1277.64,-51.51 1278.91,-44.62"/>
 </g>
 <!-- ariles2_ros2param_ws -->
-<g id="node8" class="node">
+<g id="node6" class="node">
 <title>ariles2_ros2param_ws</title>
-<g id="a_node8"><a xlink:href="../ariles2_ros2param_ws/index.html" xlink:title="ariles2_ros2param_ws">
-<ellipse fill="none" stroke="black" cx="1114" cy="-106" rx="114.28" ry="18"/>
-<text text-anchor="middle" x="1114" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_ros2param_ws</text>
+<g id="a_node6"><a xlink:href="../ariles2_ros2param_ws/index.html" xlink:title="ariles2_ros2param_ws">
+<ellipse fill="none" stroke="black" cx="1327" cy="-106" rx="114.28" ry="18"/>
+<text text-anchor="middle" x="1327" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_ros2param_ws</text>
 </a>
 </g>
 </g>
 <!-- ariles2_ros2param_ws&#45;&gt;ariles2_core_ws -->
 <g id="edge9" class="edge">
 <title>ariles2_ros2param_ws&#45;&gt;ariles2_core_ws</title>
-<path fill="none" stroke="#0000ff" d="M1143.06,-87.71C1160.56,-77.99 1182.91,-65.57 1201.7,-55.14"/>
-<path fill="none" stroke="#ff0000" d="M1144.03,-89.46C1161.53,-79.74 1183.89,-67.32 1202.67,-56.88"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="1204.04,-58.98 1211.08,-51.07 1200.64,-52.86 1204.04,-58.98"/>
-</g>
-<!-- ariles2_pugixml_ws -->
-<g id="node9" class="node">
-<title>ariles2_pugixml_ws</title>
-<g id="a_node9"><a xlink:href="../ariles2_pugixml_ws/index.html" xlink:title="ariles2_pugixml_ws">
-<ellipse fill="none" stroke="black" cx="880" cy="-106" rx="101.28" ry="18"/>
-<text text-anchor="middle" x="880" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_pugixml_ws</text>
-</a>
-</g>
-</g>
-<!-- ariles2_pugixml_ws&#45;&gt;ariles2_core_ws -->
-<g id="edge11" class="edge">
-<title>ariles2_pugixml_ws&#45;&gt;ariles2_core_ws</title>
-<path fill="none" stroke="#0000ff" d="M938.44,-90.32C955.31,-86.51 973.75,-82.48 990.8,-79.02 1049.53,-67.11 1116.34,-55.12 1165.97,-46.51"/>
-<path fill="none" stroke="#ff0000" d="M938.88,-92.27C955.74,-88.47 974.18,-84.43 991.2,-80.98 1049.88,-69.07 1116.69,-57.09 1166.31,-48.48"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="1166.89,-50.92 1176.15,-45.77 1165.7,-44.02 1166.89,-50.92"/>
+<path fill="none" stroke="#0000ff" d="M1298.06,-89.27C1281.65,-79.7 1260.84,-67.56 1243.21,-57.28"/>
+<path fill="none" stroke="#ff0000" d="M1299.07,-87.55C1282.66,-77.98 1261.85,-65.84 1244.22,-55.55"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1245.22,-53.24 1234.82,-51.23 1241.69,-59.29 1245.22,-53.24"/>
 </g>
 <!-- ariles2_rapidjson_ws -->
-<g id="node10" class="node">
+<g id="node7" class="node">
 <title>ariles2_rapidjson_ws</title>
-<g id="a_node10"><a xlink:href="../ariles2_rapidjson_ws/index.html" xlink:title="ariles2_rapidjson_ws">
-<ellipse fill="none" stroke="black" cx="653" cy="-106" rx="107.48" ry="18"/>
-<text text-anchor="middle" x="653" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_rapidjson_ws</text>
+<g id="a_node7"><a xlink:href="../ariles2_rapidjson_ws/index.html" xlink:title="ariles2_rapidjson_ws">
+<ellipse fill="none" stroke="black" cx="1087" cy="-106" rx="107.48" ry="18"/>
+<text text-anchor="middle" x="1087" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_rapidjson_ws</text>
 </a>
 </g>
 </g>
 <!-- ariles2_rapidjson_ws&#45;&gt;ariles2_core_ws -->
 <g id="edge10" class="edge">
 <title>ariles2_rapidjson_ws&#45;&gt;ariles2_core_ws</title>
-<path fill="none" stroke="#0000ff" d="M712.06,-89.97C730.5,-85.98 750.92,-81.93 769.85,-79.01 901.43,-58.73 1055.14,-46.07 1150.03,-39.52"/>
-<path fill="none" stroke="#ff0000" d="M712.49,-91.93C730.89,-87.94 751.31,-83.89 770.15,-80.99 901.59,-60.72 1055.31,-48.06 1150.17,-41.52"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="1150.5,-44 1160.24,-39.83 1150.02,-37.02 1150.5,-44"/>
+<path fill="none" stroke="#0000ff" d="M1114.63,-87.72C1131.15,-78.09 1152.2,-65.81 1169.99,-55.43"/>
+<path fill="none" stroke="#ff0000" d="M1115.64,-89.45C1132.16,-79.82 1153.21,-67.53 1171,-57.16"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1172.58,-59.13 1179.46,-51.07 1169.05,-53.08 1172.58,-59.13"/>
+</g>
+<!-- ariles2_octave_ws -->
+<g id="node9" class="node">
+<title>ariles2_octave_ws</title>
+<g id="a_node9"><a xlink:href="../ariles2_octave_ws/index.html" xlink:title="ariles2_octave_ws">
+<ellipse fill="none" stroke="black" cx="868" cy="-106" rx="94.48" ry="18"/>
+<text text-anchor="middle" x="868" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_octave_ws</text>
+</a>
+</g>
+</g>
+<!-- ariles2_octave_ws&#45;&gt;ariles2_core_ws -->
+<g id="edge12" class="edge">
+<title>ariles2_octave_ws&#45;&gt;ariles2_core_ws</title>
+<path fill="none" stroke="#0000ff" d="M922.17,-90.29C937.83,-86.48 954.94,-82.45 970.79,-79.02 1025.31,-67.22 1087.25,-55.47 1134.01,-46.93"/>
+<path fill="none" stroke="#ff0000" d="M922.64,-92.23C938.29,-88.43 955.4,-84.4 971.21,-80.98 1025.69,-69.18 1087.63,-57.43 1134.36,-48.9"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1135.01,-51.33 1144.22,-46.09 1133.76,-44.44 1135.01,-51.33"/>
 </g>
 <!-- ariles2_graphviz_ws -->
-<g id="node11" class="node">
+<g id="node10" class="node">
 <title>ariles2_graphviz_ws</title>
-<g id="a_node11"><a xlink:href="../ariles2_graphviz_ws/index.html" xlink:title="ariles2_graphviz_ws">
-<ellipse fill="none" stroke="black" cx="2039" cy="-106" rx="104.78" ry="18"/>
-<text text-anchor="middle" x="2039" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_graphviz_ws</text>
+<g id="a_node10"><a xlink:href="../ariles2_graphviz_ws/index.html" xlink:title="ariles2_graphviz_ws">
+<ellipse fill="none" stroke="black" cx="651" cy="-106" rx="104.78" ry="18"/>
+<text text-anchor="middle" x="651" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_graphviz_ws</text>
 </a>
 </g>
 </g>
 <!-- ariles2_graphviz_ws&#45;&gt;ariles2_core_ws -->
 <g id="edge14" class="edge">
 <title>ariles2_graphviz_ws&#45;&gt;ariles2_core_ws</title>
-<path fill="none" stroke="#0000ff" d="M1982.47,-91.75C1964.49,-87.68 1944.4,-83.63 1925.86,-80.99 1715.51,-50.99 1465.83,-40.96 1333.4,-37.63"/>
-<path fill="none" stroke="#ff0000" d="M1982.91,-89.8C1964.88,-85.72 1944.8,-81.67 1926.14,-79.01 1715.59,-49 1465.91,-38.96 1333.45,-35.63"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="1333.4,-33.13 1323.31,-36.38 1333.23,-40.13 1333.4,-33.13"/>
+<path fill="none" stroke="#0000ff" d="M708.83,-89.95C726.71,-85.98 746.49,-81.95 764.84,-79.01 886.65,-59.52 1028.68,-46.83 1118.21,-40.04"/>
+<path fill="none" stroke="#ff0000" d="M709.26,-91.9C727.11,-87.94 746.89,-83.91 765.16,-80.99 886.83,-61.52 1028.86,-48.82 1118.37,-42.03"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1118.69,-44.51 1128.4,-40.27 1118.17,-37.53 1118.69,-44.51"/>
+</g>
+<!-- ariles2_pugixml_ws -->
+<g id="node11" class="node">
+<title>ariles2_pugixml_ws</title>
+<g id="a_node11"><a xlink:href="../ariles2_pugixml_ws/index.html" xlink:title="ariles2_pugixml_ws">
+<ellipse fill="none" stroke="black" cx="2043" cy="-106" rx="101.28" ry="18"/>
+<text text-anchor="middle" x="2043" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_pugixml_ws</text>
+</a>
+</g>
+</g>
+<!-- ariles2_pugixml_ws&#45;&gt;ariles2_core_ws -->
+<g id="edge11" class="edge">
+<title>ariles2_pugixml_ws&#45;&gt;ariles2_core_ws</title>
+<path fill="none" stroke="#0000ff" d="M1988.27,-91.76C1970.69,-87.66 1951.02,-83.6 1932.86,-80.99 1707.51,-48.61 1439.37,-39.52 1300.62,-36.98"/>
+<path fill="none" stroke="#ff0000" d="M1988.72,-89.81C1971.1,-85.7 1951.42,-81.64 1933.14,-79.01 1707.58,-46.61 1439.44,-37.52 1300.66,-34.98"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1300.53,-32.48 1290.47,-35.8 1300.4,-39.48 1300.53,-32.48"/>
 </g>
 <!-- ariles2_yamlcpp_ws -->
 <g id="node12" class="node">
 <title>ariles2_yamlcpp_ws</title>
 <g id="a_node12"><a xlink:href="../ariles2_yamlcpp_ws/index.html" xlink:title="ariles2_yamlcpp_ws">
-<ellipse fill="none" stroke="black" cx="1814" cy="-106" rx="102.88" ry="18"/>
-<text text-anchor="middle" x="1814" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_yamlcpp_ws</text>
+<ellipse fill="none" stroke="black" cx="1821" cy="-106" rx="102.88" ry="18"/>
+<text text-anchor="middle" x="1821" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_yamlcpp_ws</text>
 </a>
 </g>
 </g>
 <!-- ariles2_yamlcpp_ws&#45;&gt;ariles2_core_ws -->
 <g id="edge8" class="edge">
 <title>ariles2_yamlcpp_ws&#45;&gt;ariles2_core_ws</title>
-<path fill="none" stroke="#0000ff" d="M1757.06,-91.9C1739.45,-87.91 1719.9,-83.87 1701.84,-80.99 1573.31,-60.46 1422.96,-47.92 1329.58,-41.46"/>
-<path fill="none" stroke="#ff0000" d="M1757.5,-89.95C1739.86,-85.95 1720.3,-81.91 1702.16,-79.01 1573.47,-58.47 1423.12,-45.92 1329.72,-39.47"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="1329.89,-36.97 1319.68,-39.78 1329.41,-43.96 1329.89,-36.97"/>
+<path fill="none" stroke="#0000ff" d="M1764.36,-91.88C1746.68,-87.87 1727.01,-83.82 1708.85,-80.99 1566.2,-58.77 1398.8,-46.5 1297.91,-40.58"/>
+<path fill="none" stroke="#ff0000" d="M1764.8,-89.93C1747.08,-85.91 1727.41,-81.86 1709.15,-79.01 1566.34,-56.77 1398.95,-44.5 1298.03,-38.59"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="1298,-36.08 1287.82,-39 1297.6,-43.07 1298,-36.08"/>
 </g>
 </g>
 </svg>

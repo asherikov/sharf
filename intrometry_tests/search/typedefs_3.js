@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['end_5fserialize_5fmember_5ffunctor_0',['end_serialize_member_functor',['../../intrometry_pjmsg_mcap/classeprosima_1_1fastcdr_1_1Cdr.html#a8f538604e4d4485e3e95f4f75461159a',1,'eprosima::fastcdr::Cdr']]],
-  ['end_5fserialize_5fmemberopt_5f_5ffunctor_1',['end_serialize_memberopt__functor',['../../intrometry_pjmsg_mcap/classeprosima_1_1fastcdr_1_1Cdr.html#abdaab31d2679d97b09ea1540297613f8',1,'eprosima::fastcdr::Cdr']]],
-  ['end_5fserialize_5ftype_5ffunctor_2',['end_serialize_type_functor',['../../intrometry_pjmsg_mcap/classeprosima_1_1fastcdr_1_1Cdr.html#a3813ae9870557c24d4cded37d5adba22',1,'eprosima::fastcdr::Cdr']]]
+  ['parameters_0',['Parameters',['../../intrometry_frontend/classintrometry_1_1SinkPIMPLBase.html#aeeafcede8cc3568c85e436ad377b6f49',1,'intrometry::SinkPIMPLBase']]]
 ];

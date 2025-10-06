@@ -1,5 +1,0 @@
-<map id="mcap::FileStreamReader" name="mcap::FileStreamReader">
-<area shape="rect" id="Node000001" title="IReadable implementation wrapping a std::ifstream input file stream." alt="" coords="5,79,188,104"/>
-<area shape="rect" id="Node000002" href="$structmcap_1_1IReadable.html" title="An abstract interface for reading MCAP data." alt="" coords="31,5,162,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,44,99,79,94,79,94,44"/>
-</map>

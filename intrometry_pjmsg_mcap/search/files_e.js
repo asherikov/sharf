@@ -1,11 +1,18 @@
 var searchData=
 [
-  ['random_0',['random',['http://en.cppreference.com/w/cpp/header/random.html',1,'']]],
-  ['ranges_1',['ranges',['http://en.cppreference.com/w/cpp/header/ranges.html',1,'']]],
-  ['ratio_2',['ratio',['http://en.cppreference.com/w/cpp/header/ratio.html',1,'']]],
-  ['read_5fjob_5fqueue_2ehpp_3',['read_job_queue.hpp',['../read__job__queue_8hpp.html',1,'']]],
-  ['reader_2ehpp_4',['reader.hpp',['../reader_8hpp.html',1,'']]],
-  ['reader_2einl_5',['reader.inl',['../reader_8inl.html',1,'']]],
-  ['readme_2emd_6',['README.md',['../README_8md.html',1,'']]],
-  ['regex_7',['regex',['http://en.cppreference.com/w/cpp/header/regex.html',1,'']]]
+  ['scoped_5fallocator_0',['scoped_allocator',['http://en.cppreference.com/w/cpp/header/scoped_allocator.html',1,'']]],
+  ['set_1',['set',['http://en.cppreference.com/w/cpp/header/set.html',1,'']]],
+  ['shared_5fmutex_2',['shared_mutex',['http://en.cppreference.com/w/cpp/header/shared_mutex.html',1,'']]],
+  ['sink_2eh_3',['sink.h',['../sink_8h.html',1,'(Global Namespace)'],['../../intrometry_frontend/sink_8h.html',1,'(Global Namespace)']]],
+  ['source_2eh_4',['source.h',['../../intrometry_frontend/source_8h.html',1,'']]],
+  ['span_5',['span',['http://en.cppreference.com/w/cpp/header/span.html',1,'']]],
+  ['sstream_6',['sstream',['http://en.cppreference.com/w/cpp/header/sstream.html',1,'']]],
+  ['stack_7',['stack',['http://en.cppreference.com/w/cpp/header/stack.html',1,'']]],
+  ['stdexcept_8',['stdexcept',['http://en.cppreference.com/w/cpp/header/stdexcept.html',1,'']]],
+  ['streambuf_9',['streambuf',['http://en.cppreference.com/w/cpp/header/streambuf.html',1,'']]],
+  ['string_10',['string',['http://en.cppreference.com/w/cpp/header/string.html',1,'']]],
+  ['string_5fview_11',['string_view',['http://en.cppreference.com/w/cpp/header/string_view.html',1,'']]],
+  ['strstream_12',['strstream',['http://en.cppreference.com/w/cpp/header/strstream.html',1,'']]],
+  ['syncstream_13',['syncstream',['http://en.cppreference.com/w/cpp/header/syncstream.html',1,'']]],
+  ['system_5ferror_14',['system_error',['http://en.cppreference.com/w/cpp/header/system_error.html',1,'']]]
 ];

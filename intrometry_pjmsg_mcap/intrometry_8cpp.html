@@ -75,8 +75,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">intrometry.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -89,15 +88,10 @@ $(function() {
 <p><a href="intrometry_8cpp_source.html">Go to the source code of this file.</a></p>
 <div class="textblock"><code>#include &lt;ariles2/visitors/namevalue2.h&gt;</code><br />
 <code>#include &lt;thread_supervisor/supervisor.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="HeaderCdrAux_8ipp_source.html">HeaderCdrAux.ipp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="StatisticsNamesCdrAux_8ipp_source.html">StatisticsNamesCdrAux.ipp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="StatisticsValuesCdrAux_8ipp_source.html">StatisticsValuesCdrAux.ipp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="TimeCdrAux_8ipp_source.html">TimeCdrAux.ipp</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="writer_8hpp_source.html">mcap/writer.hpp</a>&gt;</code><br />
+<code>#include &lt;pjmsg_mcap_wrapper/all.h&gt;</code><br />
 <code>#include &quot;<a class="elRef" href="../intrometry_frontend/intrometry_8h.html">intrometry/intrometry.h</a>&quot;</code><br />
 <code>#include &quot;<a class="elRef" href="../intrometry_frontend/utils_8h.html">intrometry/backend/utils.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sink_8h_source.html">intrometry/pjmsg_mcap/sink.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="messages_8h_source.html">messages.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -112,83 +106,7 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceintrometry_1_1pjmsg__mcap_1_1sink" id="r_namespaceintrometry_1_1pjmsg__mcap_1_1sink"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceintrometry_1_1pjmsg__mcap_1_1sink.html">intrometry::pjmsg_mcap::sink</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a138129934b2b05a5c06f53bd1ef5f938" id="r_a138129934b2b05a5c06f53bd1ef5f938"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrometry_8cpp.html#a138129934b2b05a5c06f53bd1ef5f938">MCAP_IMPLEMENTATION</a></td></tr>
-<tr class="separator:a138129934b2b05a5c06f53bd1ef5f938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a46a7e846290bcc03d0a96d715e2dce" id="r_a6a46a7e846290bcc03d0a96d715e2dce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrometry_8cpp.html#a6a46a7e846290bcc03d0a96d715e2dce">MCAP_COMPRESSION_NO_LZ4</a></td></tr>
-<tr class="separator:a6a46a7e846290bcc03d0a96d715e2dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab15f8f4b912c20e7b9f2e215268a4bd6" id="r_ab15f8f4b912c20e7b9f2e215268a4bd6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrometry_8cpp.html#ab15f8f4b912c20e7b9f2e215268a4bd6">MCAP_COMPRESSION_NO_ZSTD</a></td></tr>
-<tr class="separator:ab15f8f4b912c20e7b9f2e215268a4bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b39758e7ecb876814a9f47541140001" id="r_a8b39758e7ecb876814a9f47541140001"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrometry_8cpp.html#a8b39758e7ecb876814a9f47541140001">MCAP_PUBLIC</a>&#160;&#160;&#160;__attribute__((visibility(&quot;hidden&quot;)))</td></tr>
-<tr class="separator:a8b39758e7ecb876814a9f47541140001"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a6a46a7e846290bcc03d0a96d715e2dce" name="a6a46a7e846290bcc03d0a96d715e2dce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a46a7e846290bcc03d0a96d715e2dce">&#9670;&#160;</a></span>MCAP_COMPRESSION_NO_LZ4</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCAP_COMPRESSION_NO_LZ4</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="intrometry_8cpp_source.html#l00019">19</a> of file <a class="el" href="intrometry_8cpp_source.html">intrometry.cpp</a>.</p>
-
-</div>
-</div>
-<a id="ab15f8f4b912c20e7b9f2e215268a4bd6" name="ab15f8f4b912c20e7b9f2e215268a4bd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab15f8f4b912c20e7b9f2e215268a4bd6">&#9670;&#160;</a></span>MCAP_COMPRESSION_NO_ZSTD</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCAP_COMPRESSION_NO_ZSTD</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="intrometry_8cpp_source.html#l00020">20</a> of file <a class="el" href="intrometry_8cpp_source.html">intrometry.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a138129934b2b05a5c06f53bd1ef5f938" name="a138129934b2b05a5c06f53bd1ef5f938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a138129934b2b05a5c06f53bd1ef5f938">&#9670;&#160;</a></span>MCAP_IMPLEMENTATION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCAP_IMPLEMENTATION</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="intrometry_8cpp_source.html#l00018">18</a> of file <a class="el" href="intrometry_8cpp_source.html">intrometry.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a8b39758e7ecb876814a9f47541140001" name="a8b39758e7ecb876814a9f47541140001"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b39758e7ecb876814a9f47541140001">&#9670;&#160;</a></span>MCAP_PUBLIC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MCAP_PUBLIC&#160;&#160;&#160;__attribute__((visibility(&quot;hidden&quot;)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="intrometry_8cpp_source.html#l00021">21</a> of file <a class="el" href="intrometry_8cpp_source.html">intrometry.cpp</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

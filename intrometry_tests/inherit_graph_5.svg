@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a xlink:href="classrclcpp_1_1Subscription_3_01plotjuggler__msgs_1_1msg_1_1StatisticsNames_01_4_1_1SharedPtr.html" target="_top" xlink:title=" ">
+<g id="a_Node000000"><a xlink:href="classrclcpp_1_1Subscription_3_01ValuesMsg_01_4_1_1SharedPtr.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="64,-19 0,-19 0,0 64,0 64,-19"/>
 <text text-anchor="middle" x="32" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">SharedPtr</text>
 </a>

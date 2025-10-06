@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['jmp_5fbuf_0',['jmp_buf',['http://en.cppreference.com/w/cpp/utility/program/jmp_buf.html',1,'std']]]
+  ['kilo_0',['kilo',['http://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
+  ['knuth_5fb_1',['knuth_b',['http://en.cppreference.com/w/cpp/numeric/random/shuffle_order_engine.html',1,'std']]]
 ];
