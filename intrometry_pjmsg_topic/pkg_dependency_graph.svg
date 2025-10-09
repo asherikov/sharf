@@ -38,7 +38,7 @@
 </g>
 </g>
 <!-- intrometry_pjmsg_topic&#45;&gt;intrometry_frontend -->
-<g id="edge2" class="edge">
+<g id="edge3" class="edge">
 <title>intrometry_pjmsg_topic&#45;&gt;intrometry_frontend</title>
 <path fill="none" stroke="#0000ff" d="M137.9,-162.59C138.83,-154.14 139.97,-143.76 141.01,-134.26"/>
 <path fill="none" stroke="#ff0000" d="M139.89,-162.81C140.82,-154.35 141.95,-143.98 142.99,-134.48"/>
@@ -70,7 +70,7 @@
 </g>
 </g>
 <!-- intrometry_pjmsg_topic&#45;&gt;thread_supervisor -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>intrometry_pjmsg_topic&#45;&gt;thread_supervisor</title>
 <path fill="none" stroke="#0000ff" d="M255.65,-177.47C353.19,-174.48 483.27,-168.13 534,-155 556.51,-149.17 580.06,-138.29 598.76,-128.36"/>
 <polygon fill="#0000ff" stroke="#0000ff" points="600.68,-131.3 607.79,-123.44 597.33,-125.15 600.68,-131.3"/>

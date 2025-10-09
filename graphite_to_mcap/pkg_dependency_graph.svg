@@ -9,21 +9,21 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
 <title>graphname</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-112 227.58,-112 227.58,4 -4,4"/>
-<!-- graphite_to_mcap -->
+<!-- pjmsg_mcap_wrapper -->
 <g id="node1" class="node">
-<title>graphite_to_mcap</title>
-<g id="a_node1"><a xlink:href="../graphite_to_mcap/index.html" xlink:title="graphite_to_mcap">
-<ellipse fill="none" stroke="black" cx="111.79" cy="-90" rx="92.88" ry="18"/>
-<text text-anchor="middle" x="111.79" y="-86.3" font-family="Times,serif" font-size="14.00">graphite_to_mcap</text>
+<title>pjmsg_mcap_wrapper</title>
+<g id="a_node1"><a xlink:href="../pjmsg_mcap_wrapper/index.html" xlink:title="pjmsg_mcap_wrapper">
+<ellipse fill="none" stroke="black" cx="111.79" cy="-18" rx="111.58" ry="18"/>
+<text text-anchor="middle" x="111.79" y="-14.3" font-family="Times,serif" font-size="14.00">pjmsg_mcap_wrapper</text>
 </a>
 </g>
 </g>
-<!-- pjmsg_mcap_wrapper -->
+<!-- graphite_to_mcap -->
 <g id="node2" class="node">
-<title>pjmsg_mcap_wrapper</title>
-<g id="a_node2"><a xlink:href="../pjmsg_mcap_wrapper/index.html" xlink:title="pjmsg_mcap_wrapper">
-<ellipse fill="none" stroke="black" cx="111.79" cy="-18" rx="111.58" ry="18"/>
-<text text-anchor="middle" x="111.79" y="-14.3" font-family="Times,serif" font-size="14.00">pjmsg_mcap_wrapper</text>
+<title>graphite_to_mcap</title>
+<g id="a_node2"><a xlink:href="../graphite_to_mcap/index.html" xlink:title="graphite_to_mcap">
+<ellipse fill="none" stroke="black" cx="111.79" cy="-90" rx="92.88" ry="18"/>
+<text text-anchor="middle" x="111.79" y="-86.3" font-family="Times,serif" font-size="14.00">graphite_to_mcap</text>
 </a>
 </g>
 </g>

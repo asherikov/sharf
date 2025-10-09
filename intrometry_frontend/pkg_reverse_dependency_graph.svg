@@ -28,7 +28,7 @@
 </g>
 </g>
 <!-- intrometry_tests&#45;&gt;intrometry_pjmsg_mcap -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>intrometry_tests&#45;&gt;intrometry_pjmsg_mcap</title>
 <path fill="none" stroke="#0000ff" d="M223.31,-145.82C205.19,-136.14 181.87,-123.68 162.22,-113.18"/>
 <path fill="none" stroke="#ff0000" d="M224.26,-144.06C206.13,-134.37 182.82,-121.91 163.16,-111.41"/>
@@ -44,7 +44,7 @@
 </g>
 </g>
 <!-- intrometry_tests&#45;&gt;intrometry_pjmsg_topic -->
-<g id="edge1" class="edge">
+<g id="edge2" class="edge">
 <title>intrometry_tests&#45;&gt;intrometry_pjmsg_topic</title>
 <path fill="none" stroke="#0000ff" d="M283.42,-144.06C301.55,-134.37 324.86,-121.91 344.52,-111.41"/>
 <path fill="none" stroke="#ff0000" d="M284.36,-145.82C302.49,-136.14 325.81,-123.68 345.46,-113.18"/>
