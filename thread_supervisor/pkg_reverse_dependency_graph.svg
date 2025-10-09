@@ -33,7 +33,7 @@
 </g>
 </g>
 <!-- intrometry_tests&#45;&gt;intrometry_pjmsg_mcap -->
-<g id="edge2" class="edge">
+<g id="edge1" class="edge">
 <title>intrometry_tests&#45;&gt;intrometry_pjmsg_mcap</title>
 <path fill="none" stroke="#0000ff" d="M349.29,-148.22C308,-137.19 249.75,-121.62 204.98,-109.66"/>
 <path fill="none" stroke="#ff0000" d="M349.81,-146.29C308.52,-135.26 250.27,-119.69 205.5,-107.73"/>
@@ -49,7 +49,7 @@
 </g>
 </g>
 <!-- intrometry_tests&#45;&gt;intrometry_pjmsg_topic -->
-<g id="edge1" class="edge">
+<g id="edge3" class="edge">
 <title>intrometry_tests&#45;&gt;intrometry_pjmsg_topic</title>
 <path fill="none" stroke="#0000ff" d="M400,-143.7C400,-135.98 400,-126.71 400,-118.11"/>
 <path fill="none" stroke="#ff0000" d="M402,-143.7C402,-135.98 402,-126.71 402,-118.11"/>
@@ -65,7 +65,7 @@
 </g>
 </g>
 <!-- intrometry_tests&#45;&gt;thread_supervisor -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>intrometry_tests&#45;&gt;thread_supervisor</title>
 <path fill="none" stroke="#0000ff" d="M466.77,-149.08C490.9,-141.56 516,-128.75 530.17,-107.44 540.91,-91.73 541.34,-79.89 530.19,-64.58 519.77,-49.83 503.71,-39.77 486.65,-33.14"/>
 <path fill="none" stroke="#ff0000" d="M467.36,-150.99C491.81,-143.34 516.91,-130.53 531.83,-108.56 542.91,-91.81 543.34,-79.97 531.81,-63.42 520.84,-48.13 504.77,-38.08 487.37,-31.28"/>
