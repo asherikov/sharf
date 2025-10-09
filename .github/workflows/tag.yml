@@ -29,6 +29,6 @@ jobs:
             distro: noble
             workspace_github_repo: asherikov/sharf
             workspace_version: ${{ github.sha }}
-            cloudsmith_repo: asherikov-aV7/all/ubuntu/jammy
+            cloudsmith_repo: asherikov-aV7/all/ubuntu/noble
         secrets:
             cloudsmith_token: ${{ secrets.CLOUDSMITH_API_KEY }}
