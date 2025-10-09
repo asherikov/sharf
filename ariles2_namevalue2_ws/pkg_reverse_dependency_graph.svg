@@ -19,46 +19,14 @@
 <polygon fill="none" stroke="black" points="142,-8 142,-83 398,-83 398,-8 142,-8"/>
 <text text-anchor="middle" x="270" y="-67.8" font-family="Times,serif" font-size="14.00">ariles</text>
 </g>
-<!-- intrometry_tests -->
-<g id="node1" class="node">
-<title>intrometry_tests</title>
-<g id="a_node1"><a xlink:href="../intrometry_tests/index.html" xlink:title="intrometry_tests">
-<ellipse fill="none" stroke="black" cx="270" cy="-189" rx="88.28" ry="18"/>
-<text text-anchor="middle" x="270" y="-185.3" font-family="Times,serif" font-size="14.00">intrometry_tests</text>
-</a>
-</g>
-</g>
 <!-- intrometry_pjmsg_mcap -->
-<g id="node2" class="node">
+<g id="node1" class="node">
 <title>intrometry_pjmsg_mcap</title>
-<g id="a_node2"><a xlink:href="../intrometry_pjmsg_mcap/index.html" xlink:title="intrometry_pjmsg_mcap">
+<g id="a_node1"><a xlink:href="../intrometry_pjmsg_mcap/index.html" xlink:title="intrometry_pjmsg_mcap">
 <ellipse fill="none" stroke="black" cx="139" cy="-117" rx="122.68" ry="18"/>
 <text text-anchor="middle" x="139" y="-113.3" font-family="Times,serif" font-size="14.00">intrometry_pjmsg_mcap</text>
 </a>
 </g>
-</g>
-<!-- intrometry_tests&#45;&gt;intrometry_pjmsg_mcap -->
-<g id="edge2" class="edge">
-<title>intrometry_tests&#45;&gt;intrometry_pjmsg_mcap</title>
-<path fill="none" stroke="#0000ff" d="M239.47,-172.82C221.35,-163.14 198.03,-150.68 178.38,-140.18"/>
-<path fill="none" stroke="#ff0000" d="M240.42,-171.06C222.29,-161.37 198.98,-148.91 179.32,-138.41"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="180.29,-136.1 169.82,-134.47 176.99,-142.27 180.29,-136.1"/>
-</g>
-<!-- intrometry_pjmsg_topic -->
-<g id="node3" class="node">
-<title>intrometry_pjmsg_topic</title>
-<g id="a_node3"><a xlink:href="../intrometry_pjmsg_topic/index.html" xlink:title="intrometry_pjmsg_topic">
-<ellipse fill="none" stroke="black" cx="401" cy="-117" rx="120.78" ry="18"/>
-<text text-anchor="middle" x="401" y="-113.3" font-family="Times,serif" font-size="14.00">intrometry_pjmsg_topic</text>
-</a>
-</g>
-</g>
-<!-- intrometry_tests&#45;&gt;intrometry_pjmsg_topic -->
-<g id="edge1" class="edge">
-<title>intrometry_tests&#45;&gt;intrometry_pjmsg_topic</title>
-<path fill="none" stroke="#0000ff" d="M299.58,-171.06C317.71,-161.37 341.02,-148.91 360.68,-138.41"/>
-<path fill="none" stroke="#ff0000" d="M300.53,-172.82C318.65,-163.14 341.97,-150.68 361.62,-140.18"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="363.01,-142.27 370.18,-134.47 359.71,-136.1 363.01,-142.27"/>
 </g>
 <!-- ariles2_namevalue2_ws -->
 <g id="node4" class="node">
@@ -75,6 +43,38 @@
 <path fill="none" stroke="#0000ff" d="M165.3,-98.56C185.17,-86.28 212.43,-69.42 234.09,-56.03"/>
 <path fill="none" stroke="#ff0000" d="M166.35,-100.26C186.22,-87.98 213.49,-71.12 235.14,-57.73"/>
 <polygon fill="#0000ff" stroke="#0000ff" points="236.55,-59.8 243.21,-51.56 232.86,-53.85 236.55,-59.8"/>
+</g>
+<!-- intrometry_tests -->
+<g id="node2" class="node">
+<title>intrometry_tests</title>
+<g id="a_node2"><a xlink:href="../intrometry_tests/index.html" xlink:title="intrometry_tests">
+<ellipse fill="none" stroke="black" cx="270" cy="-189" rx="88.28" ry="18"/>
+<text text-anchor="middle" x="270" y="-185.3" font-family="Times,serif" font-size="14.00">intrometry_tests</text>
+</a>
+</g>
+</g>
+<!-- intrometry_tests&#45;&gt;intrometry_pjmsg_mcap -->
+<g id="edge1" class="edge">
+<title>intrometry_tests&#45;&gt;intrometry_pjmsg_mcap</title>
+<path fill="none" stroke="#0000ff" d="M239.47,-172.82C221.35,-163.14 198.03,-150.68 178.38,-140.18"/>
+<path fill="none" stroke="#ff0000" d="M240.42,-171.06C222.29,-161.37 198.98,-148.91 179.32,-138.41"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="180.29,-136.1 169.82,-134.47 176.99,-142.27 180.29,-136.1"/>
+</g>
+<!-- intrometry_pjmsg_topic -->
+<g id="node3" class="node">
+<title>intrometry_pjmsg_topic</title>
+<g id="a_node3"><a xlink:href="../intrometry_pjmsg_topic/index.html" xlink:title="intrometry_pjmsg_topic">
+<ellipse fill="none" stroke="black" cx="401" cy="-117" rx="120.78" ry="18"/>
+<text text-anchor="middle" x="401" y="-113.3" font-family="Times,serif" font-size="14.00">intrometry_pjmsg_topic</text>
+</a>
+</g>
+</g>
+<!-- intrometry_tests&#45;&gt;intrometry_pjmsg_topic -->
+<g id="edge2" class="edge">
+<title>intrometry_tests&#45;&gt;intrometry_pjmsg_topic</title>
+<path fill="none" stroke="#0000ff" d="M299.58,-171.06C317.71,-161.37 341.02,-148.91 360.68,-138.41"/>
+<path fill="none" stroke="#ff0000" d="M300.53,-172.82C318.65,-163.14 341.97,-150.68 361.62,-140.18"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="363.01,-142.27 370.18,-134.47 359.71,-136.1 363.01,-142.27"/>
 </g>
 <!-- intrometry_pjmsg_topic&#45;&gt;ariles2_namevalue2_ws -->
 <g id="edge3" class="edge">
