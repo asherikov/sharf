@@ -9,37 +9,21 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
 <title>graphname</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-184 509.73,-184 509.73,4 -4,4"/>
-<!-- intrometry_pjmsg_mcap -->
-<g id="node1" class="node">
-<title>intrometry_pjmsg_mcap</title>
-<g id="a_node1"><a xlink:href="../intrometry_pjmsg_mcap/index.html" xlink:title="intrometry_pjmsg_mcap">
-<ellipse fill="none" stroke="black" cx="122.84" cy="-90" rx="122.68" ry="18"/>
-<text text-anchor="middle" x="122.84" y="-86.3" font-family="Times,serif" font-size="14.00">intrometry_pjmsg_mcap</text>
-</a>
-</g>
-</g>
-<!-- intrometry_frontend -->
-<g id="node4" class="node">
-<title>intrometry_frontend</title>
-<g id="a_node4"><a xlink:href="../intrometry_frontend/index.html" xlink:title="intrometry_frontend">
-<ellipse fill="none" stroke="black" cx="253.84" cy="-18" rx="105.08" ry="18"/>
-<text text-anchor="middle" x="253.84" y="-14.3" font-family="Times,serif" font-size="14.00">intrometry_frontend</text>
-</a>
-</g>
-</g>
-<!-- intrometry_pjmsg_mcap&#45;&gt;intrometry_frontend -->
-<g id="edge4" class="edge">
-<title>intrometry_pjmsg_mcap&#45;&gt;intrometry_frontend</title>
-<path fill="none" stroke="#0000ff" d="M153.41,-71.53C171.44,-61.9 194.34,-49.66 213.66,-39.33"/>
-<path fill="none" stroke="#ff0000" d="M154.36,-73.29C172.38,-63.66 195.28,-51.43 214.61,-41.1"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="215.85,-43.27 223.02,-35.47 212.55,-37.1 215.85,-43.27"/>
-</g>
 <!-- intrometry_tests -->
-<g id="node2" class="node">
+<g id="node1" class="node">
 <title>intrometry_tests</title>
-<g id="a_node2"><a xlink:href="../intrometry_tests/index.html" xlink:title="intrometry_tests">
+<g id="a_node1"><a xlink:href="../intrometry_tests/index.html" xlink:title="intrometry_tests">
 <ellipse fill="none" stroke="black" cx="253.84" cy="-162" rx="88.28" ry="18"/>
 <text text-anchor="middle" x="253.84" y="-158.3" font-family="Times,serif" font-size="14.00">intrometry_tests</text>
+</a>
+</g>
+</g>
+<!-- intrometry_pjmsg_mcap -->
+<g id="node2" class="node">
+<title>intrometry_pjmsg_mcap</title>
+<g id="a_node2"><a xlink:href="../intrometry_pjmsg_mcap/index.html" xlink:title="intrometry_pjmsg_mcap">
+<ellipse fill="none" stroke="black" cx="122.84" cy="-90" rx="122.68" ry="18"/>
+<text text-anchor="middle" x="122.84" y="-86.3" font-family="Times,serif" font-size="14.00">intrometry_pjmsg_mcap</text>
 </a>
 </g>
 </g>
@@ -65,6 +49,22 @@
 <path fill="none" stroke="#0000ff" d="M283.42,-144.06C301.55,-134.37 324.86,-121.91 344.52,-111.41"/>
 <path fill="none" stroke="#ff0000" d="M284.36,-145.82C302.49,-136.14 325.81,-123.68 345.46,-113.18"/>
 <polygon fill="#0000ff" stroke="#0000ff" points="346.85,-115.27 354.02,-107.47 343.55,-109.1 346.85,-115.27"/>
+</g>
+<!-- intrometry_frontend -->
+<g id="node4" class="node">
+<title>intrometry_frontend</title>
+<g id="a_node4"><a xlink:href="../intrometry_frontend/index.html" xlink:title="intrometry_frontend">
+<ellipse fill="none" stroke="black" cx="253.84" cy="-18" rx="105.08" ry="18"/>
+<text text-anchor="middle" x="253.84" y="-14.3" font-family="Times,serif" font-size="14.00">intrometry_frontend</text>
+</a>
+</g>
+</g>
+<!-- intrometry_pjmsg_mcap&#45;&gt;intrometry_frontend -->
+<g id="edge4" class="edge">
+<title>intrometry_pjmsg_mcap&#45;&gt;intrometry_frontend</title>
+<path fill="none" stroke="#0000ff" d="M153.41,-71.53C171.44,-61.9 194.34,-49.66 213.66,-39.33"/>
+<path fill="none" stroke="#ff0000" d="M154.36,-73.29C172.38,-63.66 195.28,-51.43 214.61,-41.1"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="215.85,-43.27 223.02,-35.47 212.55,-37.1 215.85,-43.27"/>
 </g>
 <!-- intrometry_pjmsg_topic&#45;&gt;intrometry_frontend -->
 <g id="edge3" class="edge">

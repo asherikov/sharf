@@ -38,16 +38,16 @@
 </g>
 </g>
 <!-- intrometry_pjmsg_topic&#45;&gt;intrometry_frontend -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>intrometry_pjmsg_topic&#45;&gt;intrometry_frontend</title>
 <path fill="none" stroke="#0000ff" d="M137.9,-162.59C138.83,-154.14 139.97,-143.76 141.01,-134.26"/>
 <path fill="none" stroke="#ff0000" d="M139.89,-162.81C140.82,-154.35 141.95,-143.98 142.99,-134.48"/>
 <polygon fill="#0000ff" stroke="#0000ff" points="145.51,-134.5 143.12,-124.18 138.55,-133.73 145.51,-134.5"/>
 </g>
 <!-- ariles2_namevalue2_ws -->
-<g id="node3" class="node">
+<g id="node4" class="node">
 <title>ariles2_namevalue2_ws</title>
-<g id="a_node3"><a xlink:href="../ariles2_namevalue2_ws/index.html" xlink:title="ariles2_namevalue2_ws">
+<g id="a_node4"><a xlink:href="../ariles2_namevalue2_ws/index.html" xlink:title="ariles2_namevalue2_ws">
 <ellipse fill="none" stroke="black" cx="402" cy="-106" rx="120.48" ry="18"/>
 <text text-anchor="middle" x="402" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_namevalue2_ws</text>
 </a>
@@ -70,15 +70,15 @@
 </g>
 </g>
 <!-- intrometry_pjmsg_topic&#45;&gt;thread_supervisor -->
-<g id="edge2" class="edge">
+<g id="edge3" class="edge">
 <title>intrometry_pjmsg_topic&#45;&gt;thread_supervisor</title>
 <path fill="none" stroke="#0000ff" d="M255.65,-177.47C353.19,-174.48 483.27,-168.13 534,-155 556.51,-149.17 580.06,-138.29 598.76,-128.36"/>
 <polygon fill="#0000ff" stroke="#0000ff" points="600.68,-131.3 607.79,-123.44 597.33,-125.15 600.68,-131.3"/>
 </g>
 <!-- ariles2_core_ws -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>ariles2_core_ws</title>
-<g id="a_node4"><a xlink:href="../ariles2_core_ws/index.html" xlink:title="ariles2_core_ws">
+<g id="a_node3"><a xlink:href="../ariles2_core_ws/index.html" xlink:title="ariles2_core_ws">
 <ellipse fill="none" stroke="black" cx="384" cy="-34" rx="83.69" ry="18"/>
 <text text-anchor="middle" x="384" y="-30.3" font-family="Times,serif" font-size="14.00">ariles2_core_ws</text>
 </a>
