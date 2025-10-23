@@ -52,6 +52,9 @@ Doxygen documentation
 | [ariles2_rapidjson_ws](./ariles2_rapidjson_ws/index.html) | [graph](./ariles2_rapidjson_ws/pkg_dependency_graph.svg) | [graph](./ariles2_rapidjson_ws/pkg_reverse_dependency_graph.svg) |
 | [ariles2_ros2param_ws](./ariles2_ros2param_ws/index.html) | [graph](./ariles2_ros2param_ws/pkg_dependency_graph.svg) | [graph](./ariles2_ros2param_ws/pkg_reverse_dependency_graph.svg) |
 | [ariles2_yamlcpp_ws](./ariles2_yamlcpp_ws/index.html) | [graph](./ariles2_yamlcpp_ws/pkg_dependency_graph.svg) | [graph](./ariles2_yamlcpp_ws/pkg_reverse_dependency_graph.svg) |
+| [cdinit](./cdinit/index.html) | [graph](./cdinit/pkg_dependency_graph.svg) | [graph](./cdinit/pkg_reverse_dependency_graph.svg) |
+| [cdinit_examples](./cdinit_examples/index.html) | [graph](./cdinit_examples/pkg_dependency_graph.svg) | [graph](./cdinit_examples/pkg_reverse_dependency_graph.svg) |
+| [cdinit_manager](./cdinit_manager/index.html) | [graph](./cdinit_manager/pkg_dependency_graph.svg) | [graph](./cdinit_manager/pkg_reverse_dependency_graph.svg) |
 | [graphite_to_mcap](./graphite_to_mcap/index.html) | [graph](./graphite_to_mcap/pkg_dependency_graph.svg) | [graph](./graphite_to_mcap/pkg_reverse_dependency_graph.svg) |
 | [intrometry_frontend](./intrometry_frontend/index.html) | [graph](./intrometry_frontend/pkg_dependency_graph.svg) | [graph](./intrometry_frontend/pkg_reverse_dependency_graph.svg) |
 | [intrometry_pjmsg_mcap](./intrometry_pjmsg_mcap/index.html) | [graph](./intrometry_pjmsg_mcap/pkg_dependency_graph.svg) | [graph](./intrometry_pjmsg_mcap/pkg_reverse_dependency_graph.svg) |
@@ -61,18 +64,19 @@ Doxygen documentation
 | [thread_supervisor](./thread_supervisor/index.html) | [graph](./thread_supervisor/pkg_dependency_graph.svg) | [graph](./thread_supervisor/pkg_reverse_dependency_graph.svg) |
 
 Total number of packages: 
-15
+18
 
 Workspace status
 -----
 :::{.wide}
 ```
-tags/0.1.1-0-gff212b2
+tags/0.2.0-0-g1ee24e7
 WSH: >>> status: git sources ---
 Flags: H - version hash mismatch, M - uncommited changes
 name               version  actual version            HM repository
 ----               -------  --------------            -- ----------
 ariles             pkg_ws_2 heads/pkg_ws_2-0-g2dcd8c8    https://github.com/asherikov/ariles.git
+cdinit             master   heads/master-0-g3aef395      https://github.com/asherikov/cdinit.git
 graphite_to_mcap   main     heads/main-0-g01d3768        https://github.com/asherikov/graphite_to_mcap.git
 intrometry         main     heads/main-0-gb53b80d        https://github.com/asherikov/intrometry.git
 pjmsg_mcap_wrapper main     heads/main-0-gc89d9cd        https://github.com/asherikov/pjmsg_mcap_wrapper.git
