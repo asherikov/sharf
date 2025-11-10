@@ -14,3 +14,14 @@ jobs:
             distro: noble
             workspace_github_repo: asherikov/sharf
             workspace_version: ${{ github.sha }}
+
+
+    deb_noble_arm64:
+        uses: asherikov/ccws/.github/workflows/reusable_deb.yaml@master
+        with:
+            distro: noble
+            workspace_github_repo: asherikov/sharf
+            workspace_version: ${{ github.sha }}
+            profile: cross_arm64
+        secrets:
+            cloudsmith_token: ${{ secrets.CLOUDSMITH_API_KEY }}
