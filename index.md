@@ -70,7 +70,7 @@ Workspace status
 -----
 :::{.wide}
 ```
-heads/as_test2-0-g9652f6a
+tags/0.2.2-0-g9652f6a
 WSH: >>> status: git sources ---
 Flags: H - version hash mismatch, M - uncommited changes
 name               version  actual version           HM repository

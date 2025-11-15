@@ -9,21 +9,21 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
 <title>graphname</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-112 218.48,-112 218.48,4 -4,4"/>
-<!-- ariles2_rapidjson_ws -->
+<!-- ariles2_core_ws -->
 <g id="node1" class="node">
-<title>ariles2_rapidjson_ws</title>
-<g id="a_node1"><a xlink:href="../ariles2_rapidjson_ws/index.html" xlink:title="ariles2_rapidjson_ws">
-<ellipse fill="none" stroke="black" cx="107.24" cy="-90" rx="107.48" ry="18"/>
-<text text-anchor="middle" x="107.24" y="-86.3" font-family="Times,serif" font-size="14.00">ariles2_rapidjson_ws</text>
+<title>ariles2_core_ws</title>
+<g id="a_node1"><a xlink:href="../ariles2_core_ws/index.html" xlink:title="ariles2_core_ws">
+<ellipse fill="none" stroke="black" cx="107.24" cy="-18" rx="83.69" ry="18"/>
+<text text-anchor="middle" x="107.24" y="-14.3" font-family="Times,serif" font-size="14.00">ariles2_core_ws</text>
 </a>
 </g>
 </g>
-<!-- ariles2_core_ws -->
+<!-- ariles2_rapidjson_ws -->
 <g id="node2" class="node">
-<title>ariles2_core_ws</title>
-<g id="a_node2"><a xlink:href="../ariles2_core_ws/index.html" xlink:title="ariles2_core_ws">
-<ellipse fill="none" stroke="black" cx="107.24" cy="-18" rx="83.69" ry="18"/>
-<text text-anchor="middle" x="107.24" y="-14.3" font-family="Times,serif" font-size="14.00">ariles2_core_ws</text>
+<title>ariles2_rapidjson_ws</title>
+<g id="a_node2"><a xlink:href="../ariles2_rapidjson_ws/index.html" xlink:title="ariles2_rapidjson_ws">
+<ellipse fill="none" stroke="black" cx="107.24" cy="-90" rx="107.48" ry="18"/>
+<text text-anchor="middle" x="107.24" y="-86.3" font-family="Times,serif" font-size="14.00">ariles2_rapidjson_ws</text>
 </a>
 </g>
 </g>
