@@ -9,19 +9,10 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
 <title>graphname</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-184 174.28,-184 174.28,4 -4,4"/>
-<!-- cdinit -->
-<g id="node1" class="node">
-<title>cdinit</title>
-<g id="a_node1"><a xlink:href="../cdinit/index.html" xlink:title="cdinit">
-<ellipse fill="none" stroke="black" cx="85.14" cy="-18" rx="37.09" ry="18"/>
-<text text-anchor="middle" x="85.14" y="-14.3" font-family="Times,serif" font-size="14.00">cdinit</text>
-</a>
-</g>
-</g>
 <!-- cdinit_examples -->
-<g id="node2" class="node">
+<g id="node1" class="node">
 <title>cdinit_examples</title>
-<g id="a_node2"><a xlink:href="../cdinit_examples/index.html" xlink:title="cdinit_examples">
+<g id="a_node1"><a xlink:href="../cdinit_examples/index.html" xlink:title="cdinit_examples">
 <ellipse fill="none" stroke="black" cx="85.14" cy="-162" rx="85.29" ry="18"/>
 <text text-anchor="middle" x="85.14" y="-158.3" font-family="Times,serif" font-size="14.00">cdinit_examples</text>
 </a>
@@ -41,6 +32,15 @@
 <title>cdinit_examples&#45;&gt;cdinit_manager</title>
 <path fill="none" stroke="#ff0000" d="M85.14,-143.7C85.14,-135.98 85.14,-126.71 85.14,-118.11"/>
 <polygon fill="#ff0000" stroke="#ff0000" points="88.64,-118.1 85.14,-108.1 81.64,-118.1 88.64,-118.1"/>
+</g>
+<!-- cdinit -->
+<g id="node2" class="node">
+<title>cdinit</title>
+<g id="a_node2"><a xlink:href="../cdinit/index.html" xlink:title="cdinit">
+<ellipse fill="none" stroke="black" cx="85.14" cy="-18" rx="37.09" ry="18"/>
+<text text-anchor="middle" x="85.14" y="-14.3" font-family="Times,serif" font-size="14.00">cdinit</text>
+</a>
+</g>
 </g>
 <!-- cdinit_manager&#45;&gt;cdinit -->
 <g id="edge2" class="edge">

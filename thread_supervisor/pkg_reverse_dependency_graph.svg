@@ -14,26 +14,41 @@
 <polygon fill="none" stroke="black" points="8,-64 8,-211 530,-211 530,-64 8,-64"/>
 <text text-anchor="middle" x="269" y="-195.8" font-family="Times,serif" font-size="14.00">intrometry</text>
 </g>
-<!-- intrometry_tests -->
-<g id="node1" class="node">
-<title>intrometry_tests</title>
-<g id="a_node1"><a xlink:href="../intrometry_tests/index.html" xlink:title="intrometry_tests">
-<ellipse fill="none" stroke="black" cx="399" cy="-162" rx="88.28" ry="18"/>
-<text text-anchor="middle" x="399" y="-158.3" font-family="Times,serif" font-size="14.00">intrometry_tests</text>
-</a>
-</g>
-</g>
 <!-- intrometry_pjmsg_topic -->
-<g id="node2" class="node">
+<g id="node1" class="node">
 <title>intrometry_pjmsg_topic</title>
-<g id="a_node2"><a xlink:href="../intrometry_pjmsg_topic/index.html" xlink:title="intrometry_pjmsg_topic">
+<g id="a_node1"><a xlink:href="../intrometry_pjmsg_topic/index.html" xlink:title="intrometry_pjmsg_topic">
 <ellipse fill="none" stroke="black" cx="137" cy="-90" rx="120.78" ry="18"/>
 <text text-anchor="middle" x="137" y="-86.3" font-family="Times,serif" font-size="14.00">intrometry_pjmsg_topic</text>
 </a>
 </g>
 </g>
+<!-- thread_supervisor -->
+<g id="node4" class="node">
+<title>thread_supervisor</title>
+<g id="a_node4"><a xlink:href="../thread_supervisor/index.html" xlink:title="thread_supervisor">
+<ellipse fill="none" stroke="black" cx="399" cy="-18" rx="94.78" ry="18"/>
+<text text-anchor="middle" x="399" y="-14.3" font-family="Times,serif" font-size="14.00">thread_supervisor</text>
+</a>
+</g>
+</g>
+<!-- intrometry_pjmsg_topic&#45;&gt;thread_supervisor -->
+<g id="edge4" class="edge">
+<title>intrometry_pjmsg_topic&#45;&gt;thread_supervisor</title>
+<path fill="none" stroke="#0000ff" d="M193.21,-73.98C235.33,-62.73 292.98,-47.33 336.54,-35.69"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="337.7,-39 346.46,-33.04 335.89,-32.24 337.7,-39"/>
+</g>
+<!-- intrometry_tests -->
+<g id="node2" class="node">
+<title>intrometry_tests</title>
+<g id="a_node2"><a xlink:href="../intrometry_tests/index.html" xlink:title="intrometry_tests">
+<ellipse fill="none" stroke="black" cx="399" cy="-162" rx="88.28" ry="18"/>
+<text text-anchor="middle" x="399" y="-158.3" font-family="Times,serif" font-size="14.00">intrometry_tests</text>
+</a>
+</g>
+</g>
 <!-- intrometry_tests&#45;&gt;intrometry_pjmsg_topic -->
-<g id="edge2" class="edge">
+<g id="edge3" class="edge">
 <title>intrometry_tests&#45;&gt;intrometry_pjmsg_topic</title>
 <path fill="none" stroke="#0000ff" d="M347.29,-148.22C306,-137.19 247.75,-121.62 202.98,-109.66"/>
 <path fill="none" stroke="#ff0000" d="M347.81,-146.29C306.52,-135.26 248.27,-119.69 203.5,-107.73"/>
@@ -55,27 +70,12 @@
 <path fill="none" stroke="#ff0000" d="M400,-143.7C400,-135.98 400,-126.71 400,-118.11"/>
 <polygon fill="#0000ff" stroke="#0000ff" points="402.5,-118.1 399,-108.1 395.5,-118.1 402.5,-118.1"/>
 </g>
-<!-- thread_supervisor -->
-<g id="node4" class="node">
-<title>thread_supervisor</title>
-<g id="a_node4"><a xlink:href="../thread_supervisor/index.html" xlink:title="thread_supervisor">
-<ellipse fill="none" stroke="black" cx="399" cy="-18" rx="94.78" ry="18"/>
-<text text-anchor="middle" x="399" y="-14.3" font-family="Times,serif" font-size="14.00">thread_supervisor</text>
-</a>
-</g>
-</g>
 <!-- intrometry_tests&#45;&gt;thread_supervisor -->
-<g id="edge3" class="edge">
+<g id="edge2" class="edge">
 <title>intrometry_tests&#45;&gt;thread_supervisor</title>
 <path fill="none" stroke="#0000ff" d="M466.11,-149.22C490.5,-141.73 515.82,-128.9 530.17,-107.44 540.95,-91.76 541.38,-79.87 530.19,-64.58 519.59,-49.65 503.27,-39.52 485.95,-32.88"/>
 <path fill="none" stroke="#ff0000" d="M466.7,-151.13C491.4,-143.51 516.72,-130.68 531.83,-108.56 542.95,-91.84 543.38,-79.94 531.81,-63.42 520.65,-47.95 504.33,-37.82 486.67,-31.01"/>
 <polygon fill="#0000ff" stroke="#0000ff" points="487.09,-28.51 476.5,-28.55 484.8,-35.13 487.09,-28.51"/>
-</g>
-<!-- intrometry_pjmsg_topic&#45;&gt;thread_supervisor -->
-<g id="edge4" class="edge">
-<title>intrometry_pjmsg_topic&#45;&gt;thread_supervisor</title>
-<path fill="none" stroke="#0000ff" d="M193.21,-73.98C235.33,-62.73 292.98,-47.33 336.54,-35.69"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="337.7,-39 346.46,-33.04 335.89,-32.24 337.7,-39"/>
 </g>
 <!-- intrometry_pjmsg_mcap&#45;&gt;thread_supervisor -->
 <g id="edge5" class="edge">

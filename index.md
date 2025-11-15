@@ -70,17 +70,17 @@ Workspace status
 -----
 :::{.wide}
 ```
-tags/0.2.0-0-g1ee24e7
+heads/as_test2-0-g9652f6a
 WSH: >>> status: git sources ---
 Flags: H - version hash mismatch, M - uncommited changes
-name               version  actual version            HM repository
-----               -------  --------------            -- ----------
-ariles             pkg_ws_2 heads/pkg_ws_2-0-g2dcd8c8    https://github.com/asherikov/ariles.git
-cdinit             master   heads/master-0-g3aef395      https://github.com/asherikov/cdinit.git
-graphite_to_mcap   main     heads/main-0-g01d3768        https://github.com/asherikov/graphite_to_mcap.git
-intrometry         main     heads/main-0-gb53b80d        https://github.com/asherikov/intrometry.git
-pjmsg_mcap_wrapper main     heads/main-0-gc89d9cd        https://github.com/asherikov/pjmsg_mcap_wrapper.git
-thread_supervisor  master   tags/1.2.3-0-g2d740f6        https://github.com/asherikov/thread_supervisor.git
+name               version  actual version           HM repository
+----               -------  --------------           -- ----------
+ariles             pkg_ws_2 tags/ws-2.5.2-0-ge2c1a11    https://github.com/asherikov/ariles.git
+cdinit             master   heads/master-0-gf2f6f0a     https://github.com/asherikov/cdinit.git
+graphite_to_mcap   main     heads/main-0-g01d3768       https://github.com/asherikov/graphite_to_mcap.git
+intrometry         main     heads/main-0-gb53b80d       https://github.com/asherikov/intrometry.git
+pjmsg_mcap_wrapper main     heads/main-0-gc89d9cd       https://github.com/asherikov/pjmsg_mcap_wrapper.git
+thread_supervisor  master   tags/1.2.3-0-g2d740f6       https://github.com/asherikov/thread_supervisor.git
 
 WSH:  <<< status: git sources ---
 ```
