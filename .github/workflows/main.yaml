@@ -15,6 +15,14 @@ jobs:
             workspace_github_repo: asherikov/sharf
             workspace_version: ${{ github.sha }}
 
+    gh_pages:
+        uses: asherikov/ccws/.github/workflows/reusable_dox.yaml@master
+        with:
+            distro: noble
+            version: ${{ github.ref_name }}
+            push: false
+        permissions:
+            contents: write
 
     deb_noble_arm64:
         uses: asherikov/ccws/.github/workflows/reusable_deb.yaml@master
