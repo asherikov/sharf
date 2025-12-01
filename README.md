@@ -57,3 +57,45 @@ Overview
 
 A collection of utility packages for ROS/robotics projects. Refer to
 <http://www.sherikov.net/sharf/> for more information.
+
+Package Overview
+================
+
+This repository contains several utility packages designed for robotics and ROS
+applications:
+
+### `ariles`
+A proxy ROS1/ROS2 package for Ariles serialization/configuration library, which
+supports multiple data formats including YAML, JSON, ROS parameters, ROS2
+parameters, Octave script output, and name-value pairs. It provides a flexible
+way to handle configuration and serialization in robotics applications.
+
+### `cdinit`
+A ROS-compatible CMake wrapper for the dinit service manager, designed to
+replace or complement traditional launching mechanisms like `roslaunch`,
+`ros2launch`, `tmux`, and `screen`. It offers service management with startup
+ordering, runtime dependencies, and advanced failure handling, suitable for
+robotics applications requiring robust launch management.
+
+### `intrometry`
+A telemetry collection utility that addresses the same problem as
+`pal_statistics` and `data_tamer` but in a different way. It uses the `ariles`
+serialization library and keeps track of updated data instead of taking global
+snapshots. Features multiple backends including ROS2 topic publishing and MCAP
+file writing.
+
+### `thread_supervisor`
+A simple C++17 thread supervisor that automatically restarts failed or finished
+threads.
+
+### `graphite_to_mcap`
+A system statistics collection utility that accepts data in Graphite format and
+logs it to MCAP files. It's designed to work with tools like `collectd` for
+system monitoring, with output compatible with `PlotJuggler` for data analysis
+and visualization.
+
+### `pjmsg_mcap_wrapper`
+A logging library that writes `plotjuggler_msgs` to MCAP files without ROS
+dependencies. It incorporates `FastCDR` serializer, `MCAP` library, and
+pregenerated `plotjuggler_msgs` data structures, providing a complete solution
+for data logging without exposing its dependencies.
