@@ -13,7 +13,7 @@
 <header>
 <h1 class="title">sharf</h1>
 <blockquote class="metadata">
-<p class="date before-toc"><time datetime="DATE: 2025-11-15">DATE: 2025-11-15</time></p>
+<p class="date before-toc"><time datetime="DATE: 2025-12-06">DATE: 2025-12-06</time></p>
 </blockquote>
 </header>
 
@@ -22,16 +22,25 @@
   <input type="checkbox" id="contents">
   <ul>
   <li><a href="#overview" id="toc-overview"><span class="toc-section-number">1</span> Overview</a></li>
-  <li><a href="#packages" id="toc-packages"><span class="toc-section-number">2</span> Packages</a>
+  <li><a href="#package-overview" id="toc-package-overview"><span class="toc-section-number">2</span> Package Overview</a>
   <ul>
-  <li><a href="#dependency-graph" id="toc-dependency-graph"><span class="toc-section-number">2.1</span> Dependency graph</a></li>
-  <li><a href="#doxygen-documentation" id="toc-doxygen-documentation"><span class="toc-section-number">2.2</span> Doxygen documentation</a></li>
-  <li><a href="#workspace-status" id="toc-workspace-status"><span class="toc-section-number">2.3</span> Workspace status</a></li>
+  <li><a href="#ariles" id="toc-ariles"><span class="toc-section-number">2.0.1</span> <code>ariles</code></a></li>
+  <li><a href="#cdinit" id="toc-cdinit"><span class="toc-section-number">2.0.2</span> <code>cdinit</code></a></li>
+  <li><a href="#intrometry" id="toc-intrometry"><span class="toc-section-number">2.0.3</span> <code>intrometry</code></a></li>
+  <li><a href="#thread_supervisor" id="toc-thread_supervisor"><span class="toc-section-number">2.0.4</span> <code>thread_supervisor</code></a></li>
+  <li><a href="#graphite_to_mcap" id="toc-graphite_to_mcap"><span class="toc-section-number">2.0.5</span> <code>graphite_to_mcap</code></a></li>
+  <li><a href="#pjmsg_mcap_wrapper" id="toc-pjmsg_mcap_wrapper"><span class="toc-section-number">2.0.6</span> <code>pjmsg_mcap_wrapper</code></a></li>
   </ul></li>
-  <li><a href="#useful-links" id="toc-useful-links"><span class="toc-section-number">3</span> Useful links</a>
+  <li><a href="#packages" id="toc-packages"><span class="toc-section-number">3</span> Packages</a>
   <ul>
-  <li><a href="#ros1" id="toc-ros1"><span class="toc-section-number">3.1</span> ROS1</a></li>
-  <li><a href="#ros2" id="toc-ros2"><span class="toc-section-number">3.2</span> ROS2</a></li>
+  <li><a href="#dependency-graph" id="toc-dependency-graph"><span class="toc-section-number">3.1</span> Dependency graph</a></li>
+  <li><a href="#doxygen-documentation" id="toc-doxygen-documentation"><span class="toc-section-number">3.2</span> Doxygen documentation</a></li>
+  <li><a href="#workspace-status" id="toc-workspace-status"><span class="toc-section-number">3.3</span> Workspace status</a></li>
+  </ul></li>
+  <li><a href="#useful-links" id="toc-useful-links"><span class="toc-section-number">4</span> Useful links</a>
+  <ul>
+  <li><a href="#ros1" id="toc-ros1"><span class="toc-section-number">4.1</span> ROS1</a></li>
+  <li><a href="#ros2" id="toc-ros2"><span class="toc-section-number">4.2</span> ROS2</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -44,23 +53,63 @@
 CI status
 </td>
 <td align="center">
-Debian package
+<a href="https://github.com/asherikov/sharf/actions/workflows/main.yaml"> <img src="https://github.com/asherikov/sharf/actions/workflows/main.yaml/badge.svg" alt="Build Status"> </a>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td align="center">
+Ubuntu package
+</td>
+<td align="center">
+22.04 (jammy)
+</td>
+<td align="center">
+24.04 (noble)
 </td>
 </tr>
 <tr>
 <td align="center">
-<a href="https://github.com/asherikov/sharf/actions/workflows/main.yaml"> <img src="https://github.com/asherikov/sharf/actions/workflows/main.yaml/badge.svg" alt="Build Status"> </a>
+amd64
 </td>
 <td align="center">
-<a href="https://cloudsmith.io/~asherikov-aV7/repos/all/packages/detail/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fjammy;t=binary/"> <img src="https://api-prd.cloudsmith.io/v1/badges/version/asherikov-aV7/all/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fjammy;t=binary/?render=true&show_latest=true" alt="Latest version of 'sharf' @ Cloudsmith"> </a> <br /> <a href="https://cloudsmith.io/~asherikov-aV7/repos/all/packages/detail/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fnoble;t=binary/"> <img src="https://api-prd.cloudsmith.io/v1/badges/version/asherikov-aV7/all/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fnoble;t=binary/?render=true&show_latest=true" alt="Latest version of 'sharf' @ Cloudsmith"> </a>
+<a href="https://cloudsmith.io/~asherikov-aV7/repos/all/packages/detail/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fjammy;t=binary/"> <img src="https://api-prd.cloudsmith.io/v1/badges/version/asherikov-aV7/all/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fjammy;t=binary/?render=true&show_latest=true" alt="Latest version of 'sharf' @ Cloudsmith"> </a>
+</td>
+<td align="center">
+<a href="https://cloudsmith.io/~asherikov-aV7/repos/all/packages/detail/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fnoble;t=binary/"> <img src="https://api-prd.cloudsmith.io/v1/badges/version/asherikov-aV7/all/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fnoble;t=binary/?render=true&show_latest=true" alt="Latest version of 'sharf' @ Cloudsmith"> </a>
+</td>
+</tr>
+<tr>
+<td align="center">
+arm64
+</td>
+<td align="center">
+</td>
+<td align="center">
+<a href="https://cloudsmith.io/~asherikov-aV7/repos/all/packages/detail/deb/sharf--cross-arm64--all/latest/a=arm64;xc=main;d=ubuntu%252Fnoble;t=binary/"> <img src="https://api-prd.cloudsmith.io/v1/badges/version/asherikov-aV7/all/deb/sharf--cross-arm64--all/latest/a=arm64;d=ubuntu%252Fnoble;t=binary/?render=true&show_latest=true" alt="Latest version of 'sharf' @ Cloudsmith"> </a>
 </td>
 </tr>
 </table>
 <p>A collection of utility packages for ROS/robotics projects. Refer to <a href="http://www.sherikov.net/sharf/" class="uri">http://www.sherikov.net/sharf/</a> for more information.</p>
-<h1 data-number="2" id="packages"><span class="header-section-number">2</span> Packages</h1>
-<h2 data-number="2.1" id="dependency-graph"><span class="header-section-number">2.1</span> Dependency graph</h2>
+<h1 data-number="2" id="package-overview"><span class="header-section-number">2</span> Package Overview</h1>
+<p>This repository contains several utility packages designed for robotics and ROS applications:</p>
+<h3 data-number="2.0.1" id="ariles"><span class="header-section-number">2.0.1</span> <code>ariles</code></h3>
+<p>A proxy ROS1/ROS2 package for Ariles serialization/configuration library, which supports multiple data formats including YAML, JSON, ROS parameters, ROS2 parameters, Octave script output, and name-value pairs. It provides a flexible way to handle configuration and serialization in robotics applications.</p>
+<h3 data-number="2.0.2" id="cdinit"><span class="header-section-number">2.0.2</span> <code>cdinit</code></h3>
+<p>A ROS-compatible CMake wrapper for the dinit service manager, designed to replace or complement traditional launching mechanisms like <code>roslaunch</code>, <code>ros2launch</code>, <code>tmux</code>, and <code>screen</code>. It offers service management with startup ordering, runtime dependencies, and advanced failure handling, suitable for robotics applications requiring robust launch management.</p>
+<h3 data-number="2.0.3" id="intrometry"><span class="header-section-number">2.0.3</span> <code>intrometry</code></h3>
+<p>A telemetry collection utility that addresses the same problem as <code>pal_statistics</code> and <code>data_tamer</code> but in a different way. It uses the <code>ariles</code> serialization library and keeps track of updated data instead of taking global snapshots. Features multiple backends including ROS2 topic publishing and MCAP file writing.</p>
+<h3 data-number="2.0.4" id="thread_supervisor"><span class="header-section-number">2.0.4</span> <code>thread_supervisor</code></h3>
+<p>A simple C++17 thread supervisor that automatically restarts failed or finished threads.</p>
+<h3 data-number="2.0.5" id="graphite_to_mcap"><span class="header-section-number">2.0.5</span> <code>graphite_to_mcap</code></h3>
+<p>A system statistics collection utility that accepts data in Graphite format and logs it to MCAP files. It’s designed to work with tools like <code>collectd</code> for system monitoring, with output compatible with <code>PlotJuggler</code> for data analysis and visualization.</p>
+<h3 data-number="2.0.6" id="pjmsg_mcap_wrapper"><span class="header-section-number">2.0.6</span> <code>pjmsg_mcap_wrapper</code></h3>
+<p>A logging library that writes <code>plotjuggler_msgs</code> to MCAP files without ROS dependencies. It incorporates <code>FastCDR</code> serializer, <code>MCAP</code> library, and pregenerated <code>plotjuggler_msgs</code> data structures, providing a complete solution for data logging without exposing its dependencies.</p>
+<h1 data-number="3" id="packages"><span class="header-section-number">3</span> Packages</h1>
+<h2 data-number="3.1" id="dependency-graph"><span class="header-section-number">3.1</span> Dependency graph</h2>
 <p><a href="pkg_dependency_graph.svg"><img src="pkg_dependency_graph.svg" /></a></p>
-<h2 data-number="2.2" id="doxygen-documentation"><span class="header-section-number">2.2</span> Doxygen documentation</h2>
+<h2 data-number="3.2" id="doxygen-documentation"><span class="header-section-number">3.2</span> Doxygen documentation</h2>
 <table>
 <colgroup>
 <col style="width: 33%" />
@@ -121,80 +170,75 @@ Debian package
 <td style="text-align: center;"><a href="./cdinit/pkg_reverse_dependency_graph.svg">graph</a></td>
 </tr>
 <tr class="even">
-<td><a href="./cdinit_examples/index.html">cdinit_examples</a></td>
-<td style="text-align: center;"><a href="./cdinit_examples/pkg_dependency_graph.svg">graph</a></td>
-<td style="text-align: center;"><a href="./cdinit_examples/pkg_reverse_dependency_graph.svg">graph</a></td>
+<td><a href="./cdinit_ros2/index.html">cdinit_ros2</a></td>
+<td style="text-align: center;"><a href="./cdinit_ros2/pkg_dependency_graph.svg">graph</a></td>
+<td style="text-align: center;"><a href="./cdinit_ros2/pkg_reverse_dependency_graph.svg">graph</a></td>
 </tr>
 <tr class="odd">
-<td><a href="./cdinit_manager/index.html">cdinit_manager</a></td>
-<td style="text-align: center;"><a href="./cdinit_manager/pkg_dependency_graph.svg">graph</a></td>
-<td style="text-align: center;"><a href="./cdinit_manager/pkg_reverse_dependency_graph.svg">graph</a></td>
-</tr>
-<tr class="even">
 <td><a href="./graphite_to_mcap/index.html">graphite_to_mcap</a></td>
 <td style="text-align: center;"><a href="./graphite_to_mcap/pkg_dependency_graph.svg">graph</a></td>
 <td style="text-align: center;"><a href="./graphite_to_mcap/pkg_reverse_dependency_graph.svg">graph</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./intrometry_frontend/index.html">intrometry_frontend</a></td>
 <td style="text-align: center;"><a href="./intrometry_frontend/pkg_dependency_graph.svg">graph</a></td>
 <td style="text-align: center;"><a href="./intrometry_frontend/pkg_reverse_dependency_graph.svg">graph</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./intrometry_pjmsg_mcap/index.html">intrometry_pjmsg_mcap</a></td>
 <td style="text-align: center;"><a href="./intrometry_pjmsg_mcap/pkg_dependency_graph.svg">graph</a></td>
 <td style="text-align: center;"><a href="./intrometry_pjmsg_mcap/pkg_reverse_dependency_graph.svg">graph</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./intrometry_pjmsg_topic/index.html">intrometry_pjmsg_topic</a></td>
 <td style="text-align: center;"><a href="./intrometry_pjmsg_topic/pkg_dependency_graph.svg">graph</a></td>
 <td style="text-align: center;"><a href="./intrometry_pjmsg_topic/pkg_reverse_dependency_graph.svg">graph</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./intrometry_tests/index.html">intrometry_tests</a></td>
 <td style="text-align: center;"><a href="./intrometry_tests/pkg_dependency_graph.svg">graph</a></td>
 <td style="text-align: center;"><a href="./intrometry_tests/pkg_reverse_dependency_graph.svg">graph</a></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><a href="./pjmsg_mcap_wrapper/index.html">pjmsg_mcap_wrapper</a></td>
 <td style="text-align: center;"><a href="./pjmsg_mcap_wrapper/pkg_dependency_graph.svg">graph</a></td>
 <td style="text-align: center;"><a href="./pjmsg_mcap_wrapper/pkg_reverse_dependency_graph.svg">graph</a></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><a href="./thread_supervisor/index.html">thread_supervisor</a></td>
 <td style="text-align: center;"><a href="./thread_supervisor/pkg_dependency_graph.svg">graph</a></td>
 <td style="text-align: center;"><a href="./thread_supervisor/pkg_reverse_dependency_graph.svg">graph</a></td>
 </tr>
 </tbody>
 </table>
-<p>Total number of packages: 18</p>
-<h2 data-number="2.3" id="workspace-status"><span class="header-section-number">2.3</span> Workspace status</h2>
+<p>Total number of packages: 17</p>
+<h2 data-number="3.3" id="workspace-status"><span class="header-section-number">3.3</span> Workspace status</h2>
 <div class="wide">
-<pre><code>tags/0.2.2-0-g9652f6a
+<pre><code>tags/0.2.3-0-g3ad3af3
 WSH: &gt;&gt;&gt; status: git sources ---
 Flags: H - version hash mismatch, M - uncommited changes
 name               version  actual version           HM repository
 ----               -------  --------------           -- ----------
 ariles             pkg_ws_2 tags/ws-2.5.2-0-ge2c1a11    https://github.com/asherikov/ariles.git
-cdinit             master   heads/master-0-gf2f6f0a     https://github.com/asherikov/cdinit.git
-graphite_to_mcap   main     heads/main-0-g01d3768       https://github.com/asherikov/graphite_to_mcap.git
+cdinit             master   heads/master-0-g9504974     https://github.com/asherikov/cdinit.git
+graphite_to_mcap   main     heads/main-0-gf0ad58c       https://github.com/asherikov/graphite_to_mcap.git
 intrometry         main     heads/main-0-gb53b80d       https://github.com/asherikov/intrometry.git
 pjmsg_mcap_wrapper main     heads/main-0-gc89d9cd       https://github.com/asherikov/pjmsg_mcap_wrapper.git
 thread_supervisor  master   tags/1.2.3-0-g2d740f6       https://github.com/asherikov/thread_supervisor.git
 
 WSH:  &lt;&lt;&lt; status: git sources ---</code></pre>
 </div>
-<h1 data-number="3" id="useful-links"><span class="header-section-number">3</span> Useful links</h1>
+<h1 data-number="4" id="useful-links"><span class="header-section-number">4</span> Useful links</h1>
 <ul>
 <li><a href="https://status.openrobotics.org/">ROS online status</a></li>
 <li><a href="https://github.com/ros/rosdistro/blob/master/rosdep/base.yaml">ROSDEP packages</a></li>
 </ul>
-<h2 data-number="3.1" id="ros1"><span class="header-section-number">3.1</span> ROS1</h2>
+<h2 data-number="4.1" id="ros1"><span class="header-section-number">4.1</span> ROS1</h2>
 <ul>
 <li><a href="http://docs.ros.org/en/noetic/api/roscpp/html/">C++ API</a></li>
 <li><a href="https://docs.ros.org/en/noetic/api/catkin/html/dev_guide/generated_cmake_api.html">catkin API</a></li>
 </ul>
-<h2 data-number="3.2" id="ros2"><span class="header-section-number">3.2</span> ROS2</h2>
+<h2 data-number="4.2" id="ros2"><span class="header-section-number">4.2</span> ROS2</h2>
 <ul>
 <li><a href="https://docs.ros2.org/latest/api/rclcpp/namespacerclcpp.html">C++ API</a></li>
 <li><a href="https://docs.ros.org/en/foxy/How-To-Guides/Ament-CMake-Documentation.html">ament</a></li>

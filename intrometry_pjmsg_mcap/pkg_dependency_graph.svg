@@ -19,37 +19,21 @@
 <polygon fill="none" stroke="black" points="278,-8 278,-155 534,-155 534,-8 278,-8"/>
 <text text-anchor="middle" x="406" y="-139.8" font-family="Times,serif" font-size="14.00">ariles</text>
 </g>
-<!-- intrometry_frontend -->
-<g id="node1" class="node">
-<title>intrometry_frontend</title>
-<g id="a_node1"><a xlink:href="../intrometry_frontend/index.html" xlink:title="intrometry_frontend">
-<ellipse fill="none" stroke="black" cx="148" cy="-106" rx="105.08" ry="18"/>
-<text text-anchor="middle" x="148" y="-102.3" font-family="Times,serif" font-size="14.00">intrometry_frontend</text>
-</a>
-</g>
-</g>
-<!-- ariles2_core_ws -->
-<g id="node3" class="node">
-<title>ariles2_core_ws</title>
-<g id="a_node3"><a xlink:href="../ariles2_core_ws/index.html" xlink:title="ariles2_core_ws">
-<ellipse fill="none" stroke="black" cx="388" cy="-34" rx="83.69" ry="18"/>
-<text text-anchor="middle" x="388" y="-30.3" font-family="Times,serif" font-size="14.00">ariles2_core_ws</text>
-</a>
-</g>
-</g>
-<!-- intrometry_frontend&#45;&gt;ariles2_core_ws -->
-<g id="edge5" class="edge">
-<title>intrometry_frontend&#45;&gt;ariles2_core_ws</title>
-<path fill="none" stroke="#0000ff" d="M198.62,-89.19C237.26,-77.92 290.41,-62.42 330.52,-50.72"/>
-<path fill="none" stroke="#ff0000" d="M199.18,-91.11C237.82,-79.84 290.97,-64.34 331.08,-52.64"/>
-<polygon fill="#0000ff" stroke="#0000ff" points="331.82,-55.03 340.44,-48.87 329.86,-48.31 331.82,-55.03"/>
-</g>
 <!-- intrometry_pjmsg_mcap -->
-<g id="node2" class="node">
+<g id="node1" class="node">
 <title>intrometry_pjmsg_mcap</title>
-<g id="a_node2"><a xlink:href="../intrometry_pjmsg_mcap/index.html" xlink:title="intrometry_pjmsg_mcap">
+<g id="a_node1"><a xlink:href="../intrometry_pjmsg_mcap/index.html" xlink:title="intrometry_pjmsg_mcap">
 <ellipse fill="none" stroke="black" cx="139" cy="-181" rx="122.68" ry="18"/>
 <text text-anchor="middle" x="139" y="-177.3" font-family="Times,serif" font-size="14.00">intrometry_pjmsg_mcap</text>
+</a>
+</g>
+</g>
+<!-- intrometry_frontend -->
+<g id="node2" class="node">
+<title>intrometry_frontend</title>
+<g id="a_node2"><a xlink:href="../intrometry_frontend/index.html" xlink:title="intrometry_frontend">
+<ellipse fill="none" stroke="black" cx="148" cy="-106" rx="105.08" ry="18"/>
+<text text-anchor="middle" x="148" y="-102.3" font-family="Times,serif" font-size="14.00">intrometry_frontend</text>
 </a>
 </g>
 </g>
@@ -61,9 +45,9 @@
 <polygon fill="#0000ff" stroke="#0000ff" points="148.13,-134.53 145.88,-124.18 141.19,-133.67 148.13,-134.53"/>
 </g>
 <!-- ariles2_namevalue2_ws -->
-<g id="node4" class="node">
+<g id="node3" class="node">
 <title>ariles2_namevalue2_ws</title>
-<g id="a_node4"><a xlink:href="../ariles2_namevalue2_ws/index.html" xlink:title="ariles2_namevalue2_ws">
+<g id="a_node3"><a xlink:href="../ariles2_namevalue2_ws/index.html" xlink:title="ariles2_namevalue2_ws">
 <ellipse fill="none" stroke="black" cx="406" cy="-106" rx="120.48" ry="18"/>
 <text text-anchor="middle" x="406" y="-102.3" font-family="Times,serif" font-size="14.00">ariles2_namevalue2_ws</text>
 </a>
@@ -106,6 +90,22 @@
 <title>intrometry_pjmsg_mcap&#45;&gt;thread_supervisor</title>
 <path fill="none" stroke="#0000ff" d="M261.87,-180.88C419.18,-181.02 682.69,-177.66 777,-155 800.43,-149.37 824.98,-138.32 844.34,-128.23"/>
 <polygon fill="#0000ff" stroke="#0000ff" points="846.23,-131.19 853.4,-123.39 842.93,-125.02 846.23,-131.19"/>
+</g>
+<!-- ariles2_core_ws -->
+<g id="node4" class="node">
+<title>ariles2_core_ws</title>
+<g id="a_node4"><a xlink:href="../ariles2_core_ws/index.html" xlink:title="ariles2_core_ws">
+<ellipse fill="none" stroke="black" cx="388" cy="-34" rx="83.69" ry="18"/>
+<text text-anchor="middle" x="388" y="-30.3" font-family="Times,serif" font-size="14.00">ariles2_core_ws</text>
+</a>
+</g>
+</g>
+<!-- intrometry_frontend&#45;&gt;ariles2_core_ws -->
+<g id="edge5" class="edge">
+<title>intrometry_frontend&#45;&gt;ariles2_core_ws</title>
+<path fill="none" stroke="#0000ff" d="M198.62,-89.19C237.26,-77.92 290.41,-62.42 330.52,-50.72"/>
+<path fill="none" stroke="#ff0000" d="M199.18,-91.11C237.82,-79.84 290.97,-64.34 331.08,-52.64"/>
+<polygon fill="#0000ff" stroke="#0000ff" points="331.82,-55.03 340.44,-48.87 329.86,-48.31 331.82,-55.03"/>
 </g>
 <!-- ariles2_namevalue2_ws&#45;&gt;ariles2_core_ws -->
 <g id="edge6" class="edge">
