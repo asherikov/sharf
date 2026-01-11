@@ -2,24 +2,24 @@ repositories:
     ariles:
         type: git
         url: https://github.com/asherikov/ariles.git
-        version: pkg_ws_2
+        version: 0d3074c9414e2518b19ce4d41b26919a450335e3
     cdinit:
         type: git
         url: https://github.com/asherikov/cdinit.git
-        version: master
+        version: d4398e9f7adec7173e93ab8dea187a70818c2cfa
     graphite_to_mcap:
         type: git
         url: https://github.com/asherikov/graphite_to_mcap.git
-        version: main
+        version: f0ad58c7120f71c963c51d8ddf3341f70153a100
     intrometry:
         type: git
         url: https://github.com/asherikov/intrometry.git
-        version: main
+        version: b53b80d52cf3f820072d9f48629d8325b2d11a56
     pjmsg_mcap_wrapper:
         type: git
         url: https://github.com/asherikov/pjmsg_mcap_wrapper.git
-        version: main
+        version: c89d9cdb74930b0a86b0fb90b31732d2e0547851
     thread_supervisor:
         type: git
         url: https://github.com/asherikov/thread_supervisor.git
-        version: master
+        version: 2d740f6ac746137dcb015e42716eb284b4c686ca
