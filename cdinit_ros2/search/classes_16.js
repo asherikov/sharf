@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['waitqueue_0',['waitqueue',['../../cdinit/classdasynq_1_1v2_1_1dprivate_1_1waitqueue.html',1,'dasynq::v2::dprivate']]],
-  ['waitqueue_3c_20mutex_5ft_20_3e_1',['waitqueue&lt; mutex_t &gt;',['../../cdinit/classdasynq_1_1v2_1_1dprivate_1_1waitqueue.html',1,'dasynq::v2::dprivate']]],
-  ['waitqueue_3c_20null_5fmutex_20_3e_2',['waitqueue&lt; null_mutex &gt;',['../../cdinit/classdasynq_1_1v2_1_1dprivate_1_1waitqueue_3_01null__mutex_01_4.html',1,'dasynq::v2::dprivate']]],
-  ['waitqueue_5fnode_3',['waitqueue_node',['../../cdinit/classdasynq_1_1v2_1_1dprivate_1_1waitqueue__node.html',1,'dasynq::v2::dprivate']]],
-  ['waitqueue_5fnode_3c_20null_5fmutex_20_3e_4',['waitqueue_node&lt; null_mutex &gt;',['../../cdinit/classdasynq_1_1v2_1_1dprivate_1_1waitqueue__node_3_01null__mutex_01_4.html',1,'dasynq::v2::dprivate']]],
-  ['waitqueue_5fnode_3c_20t_5fmutex_20_3e_5',['waitqueue_node&lt; T_Mutex &gt;',['../../cdinit/classdasynq_1_1v2_1_1dprivate_1_1waitqueue__node.html',1,'dasynq::v2::dprivate']]],
+  ['waitqueue_0',['waitqueue',['../../@@PKG@@/classdasynq_1_1v2_1_1dprivate_1_1waitqueue.html',1,'dasynq::v2::dprivate']]],
+  ['waitqueue_3c_20mutex_5ft_20_3e_1',['waitqueue&lt; mutex_t &gt;',['../../@@PKG@@/classdasynq_1_1v2_1_1dprivate_1_1waitqueue.html',1,'dasynq::v2::dprivate']]],
+  ['waitqueue_3c_20null_5fmutex_20_3e_2',['waitqueue&lt; null_mutex &gt;',['../../@@PKG@@/classdasynq_1_1v2_1_1dprivate_1_1waitqueue_3_01null__mutex_01_4.html',1,'dasynq::v2::dprivate']]],
+  ['waitqueue_5fnode_3',['waitqueue_node',['../../@@PKG@@/classdasynq_1_1v2_1_1dprivate_1_1waitqueue__node.html',1,'dasynq::v2::dprivate']]],
+  ['waitqueue_5fnode_3c_20null_5fmutex_20_3e_4',['waitqueue_node&lt; null_mutex &gt;',['../../@@PKG@@/classdasynq_1_1v2_1_1dprivate_1_1waitqueue__node_3_01null__mutex_01_4.html',1,'dasynq::v2::dprivate']]],
+  ['waitqueue_5fnode_3c_20t_5fmutex_20_3e_5',['waitqueue_node&lt; T_Mutex &gt;',['../../@@PKG@@/classdasynq_1_1v2_1_1dprivate_1_1waitqueue__node.html',1,'dasynq::v2::dprivate']]],
   ['wbuffer_5fconvert_6',['wbuffer_convert',['http://en.cppreference.com/w/cpp/locale/wbuffer_convert.html',1,'std']]],
   ['wcerr_7',['wcerr',['http://en.cppreference.com/w/cpp/io/cerr.html',1,'std']]],
   ['wcin_8',['wcin',['http://en.cppreference.com/w/cpp/io/cin.html',1,'std']]],

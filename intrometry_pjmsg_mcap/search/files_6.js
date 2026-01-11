@@ -2,7 +2,7 @@ var searchData=
 [
   ['initializer_5flist_0',['initializer_list',['http://en.cppreference.com/w/cpp/header/initializer_list.html',1,'']]],
   ['intrometry_2ecpp_1',['intrometry.cpp',['../intrometry_8cpp.html',1,'']]],
-  ['intrometry_2eh_2',['intrometry.h',['../../intrometry_frontend/intrometry_8h.html',1,'']]],
+  ['intrometry_2eh_2',['intrometry.h',['../../@@PKG@@/intrometry_8h.html',1,'']]],
   ['iomanip_3',['iomanip',['http://en.cppreference.com/w/cpp/header/iomanip.html',1,'']]],
   ['ios_4',['ios',['http://en.cppreference.com/w/cpp/header/ios.html',1,'']]],
   ['iosfwd_5',['iosfwd',['http://en.cppreference.com/w/cpp/header/iosfwd.html',1,'']]],

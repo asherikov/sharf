@@ -73,6 +73,5 @@ var menudata={children:[
 {text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html"},
 {text:"Macros",url:"globals_defs.html"}]}]},
-{text:"Dependencies",url:"./pkg_dependency_graph.svg"},
-{text:"Reverse dependencies",url:"./pkg_reverse_dependency_graph.svg"},
+{text:"Dependencies",url:"../packages_intrometry_frontend_recursive_all.svg"},
 {text:"Package index",url:"../index.html"}]}

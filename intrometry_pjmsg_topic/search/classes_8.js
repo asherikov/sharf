@@ -4,7 +4,7 @@ var searchData=
   ['identity_1',['identity',['http://en.cppreference.com/w/cpp/utility/functional/identity.html',1,'std']]],
   ['ifstream_2',['ifstream',['http://en.cppreference.com/w/cpp/io/basic_ifstream.html',1,'std']]],
   ['imaxdiv_5ft_3',['imaxdiv_t',['http://en.cppreference.com/w/cpp/numeric/math/div.html',1,'std']]],
-  ['implementation_4',['implementation',['../../intrometry_frontend/classintrometry_1_1backend_1_1RateTimer_1_1Implementation.html',1,'intrometry::backend::RateTimer::Implementation'],['../classintrometry_1_1pjmsg__topic_1_1sink_1_1Implementation.html',1,'intrometry::pjmsg_topic::sink::Implementation']]],
+  ['implementation_4',['implementation',['../../@@PKG@@/classintrometry_1_1backend_1_1RateTimer_1_1Implementation.html',1,'intrometry::backend::RateTimer::Implementation'],['../classintrometry_1_1pjmsg__topic_1_1sink_1_1Implementation.html',1,'intrometry::pjmsg_topic::sink::Implementation']]],
   ['in_5fplace_5findex_5ft_5',['in_place_index_t',['http://en.cppreference.com/w/cpp/utility/in_place.html',1,'std']]],
   ['in_5fplace_5ft_6',['in_place_t',['http://en.cppreference.com/w/cpp/utility/in_place.html',1,'std']]],
   ['in_5fplace_5ftype_5ft_7',['in_place_type_t',['http://en.cppreference.com/w/cpp/utility/in_place.html',1,'std']]],

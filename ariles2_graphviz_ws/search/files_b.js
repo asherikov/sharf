@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['package_2exml_0',['package.xml',['../package_8xml.html',1,'(Global Namespace)'],['../../ariles2_core_ws/package_8xml.html',1,'(Global Namespace)']]]
+  ['package_2exml_0',['package.xml',['../package_8xml.html',1,'(Global Namespace)'],['../../@@PKG@@/package_8xml.html',1,'(Global Namespace)']]]
 ];

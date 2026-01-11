@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['service_5frecord_0',['service_record',['../../cdinit/classservice__record_1_1loading__tag__cls.html',1,'']]],
+  ['service_5frecord_0',['service_record',['../../@@PKG@@/classservice__record_1_1loading__tag__cls.html',1,'']]],
   ['std_1',['std',['http://en.cppreference.com/w/namespacestd.html',1,'']]],
   ['std_3a_3achrono_2',['chrono',['http://en.cppreference.com/w/namespacestd_1_1chrono.html',1,'std']]],
   ['std_3a_3aexecution_3',['execution',['http://en.cppreference.com/w/namespacestd_1_1execution.html',1,'std']]],

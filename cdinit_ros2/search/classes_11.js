@@ -22,8 +22,8 @@ var searchData=
   ['raw_5finvocation_5ftype_19',['raw_invocation_type',['http://en.cppreference.com/w/cpp/experimental/invocation_type.html',1,'std::experimental']]],
   ['raw_5fstorage_5fiterator_20',['raw_storage_iterator',['http://en.cppreference.com/w/cpp/memory/raw_storage_iterator.html',1,'std']]],
   ['readable_5ftraits_21',['readable_traits',['http://en.cppreference.com/w/cpp/iterator/readable_traits.html',1,'std']]],
-  ['ready_5fnotify_5fwatcher_22',['ready_notify_watcher',['../../cdinit/classready__notify__watcher.html',1,'']]],
-  ['rebind_23',['rebind',['../../cdinit/structdefault__init__allocator_1_1rebind.html',1,'default_init_allocator']]],
+  ['ready_5fnotify_5fwatcher_22',['ready_notify_watcher',['../../@@PKG@@/classready__notify__watcher.html',1,'']]],
+  ['rebind_23',['rebind',['../../@@PKG@@/structdefault__init__allocator_1_1rebind.html',1,'default_init_allocator']]],
   ['recursive_5fdirectory_5fiterator_24',['recursive_directory_iterator',['http://en.cppreference.com/w/cpp/experimental/fs/recursive_directory_iterator.html',1,'std::experimental::filesystem::recursive_directory_iterator'],['http://en.cppreference.com/w/cpp/filesystem/recursive_directory_iterator.html',1,'std::filesystem::recursive_directory_iterator']]],
   ['recursive_5fmutex_25',['recursive_mutex',['http://en.cppreference.com/w/cpp/thread/recursive_mutex.html',1,'std']]],
   ['recursive_5ftimed_5fmutex_26',['recursive_timed_mutex',['http://en.cppreference.com/w/cpp/thread/recursive_timed_mutex.html',1,'std']]],
@@ -54,7 +54,7 @@ var searchData=
   ['result_5fof_51',['result_of',['http://en.cppreference.com/w/cpp/types/result_of.html',1,'std']]],
   ['result_5fof_5ft_52',['result_of_t',['http://en.cppreference.com/w/cpp/types/result_of.html',1,'std']]],
   ['reverse_5fiterator_53',['reverse_iterator',['http://en.cppreference.com/w/cpp/iterator/reverse_iterator.html',1,'std']]],
-  ['run_5fproc_5ferr_54',['run_proc_err',['../../cdinit/structrun__proc__err.html',1,'']]],
-  ['run_5fproc_5fparams_55',['run_proc_params',['../../cdinit/structrun__proc__params.html',1,'']]],
+  ['run_5fproc_5ferr_54',['run_proc_err',['../../@@PKG@@/structrun__proc__err.html',1,'']]],
+  ['run_5fproc_5fparams_55',['run_proc_params',['../../@@PKG@@/structrun__proc__params.html',1,'']]],
   ['runtime_5ferror_56',['runtime_error',['http://en.cppreference.com/w/cpp/error/runtime_error.html',1,'std']]]
 ];

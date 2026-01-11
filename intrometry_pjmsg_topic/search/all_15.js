@@ -78,10 +78,10 @@ var searchData=
   ['upstream_5fresource_75',['upstream_resource',['http://en.cppreference.com/w/cpp/memory/unsynchronized_pool_resource/upstream_resource.html',1,'std::pmr::unsynchronized_pool_resource::upstream_resource()'],['http://en.cppreference.com/w/cpp/memory/synchronized_pool_resource/upstream_resource.html',1,'std::pmr::synchronized_pool_resource::upstream_resource()'],['http://en.cppreference.com/w/cpp/memory/monotonic_buffer_resource/upstream_resource.html',1,'std::pmr::monotonic_buffer_resource::upstream_resource()']]],
   ['use_5fcount_76',['use_count',['http://en.cppreference.com/w/cpp/memory/weak_ptr/use_count.html',1,'std::weak_ptr::use_count()'],['http://en.cppreference.com/w/cpp/memory/shared_ptr/use_count.html',1,'std::shared_ptr::use_count()']]],
   ['use_5ffacet_77',['use_facet',['http://en.cppreference.com/w/cpp/locale/use_facet.html',1,'std']]],
-  ['user_20api_78',['User API',['../../intrometry_frontend/group__API.html',1,'']]],
+  ['user_20api_78',['User API',['../../@@PKG@@/group__API.html',1,'']]],
   ['uses_5fallocator_79',['uses_allocator',['http://en.cppreference.com/w/cpp/memory/uses_allocator.html',1,'std']]],
   ['uses_5fallocator_5fconstruction_5fargs_80',['uses_allocator_construction_args',['http://en.cppreference.com/w/cpp/memory/uses_allocator_construction_args.html',1,'std']]],
   ['uses_5fallocator_5fv_81',['uses_allocator_v',['http://en.cppreference.com/w/cpp/memory/uses_allocator.html',1,'std::uses_allocator_v'],['http://en.cppreference.com/w/cpp/experimental/type_trait_variable_templates.html',1,'std::experimental::uses_allocator_v']]],
   ['utility_82',['utility',['http://en.cppreference.com/w/cpp/header/utility.html',1,'']]],
-  ['utils_2eh_83',['utils.h',['../../intrometry_frontend/utils_8h.html',1,'']]]
+  ['utils_2eh_83',['utils.h',['../../@@PKG@@/utils_8h.html',1,'']]]
 ];

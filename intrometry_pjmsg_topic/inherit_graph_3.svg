@@ -11,7 +11,7 @@
 <!-- Node0 -->
 <g id="Node000000" class="node">
 <title>Node0</title>
-<g id="a_Node000000"><a target="_parent" xlink:href="../intrometry_frontend/classintrometry_1_1Sink.html" xlink:title=" ">
+<g id="a_Node000000"><a target="_parent" xlink:href="../@@PKG@@/classintrometry_1_1Sink.html" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="95,-30 0,-30 0,-11 95,-11 95,-30"/>
 <text text-anchor="middle" x="47.5" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">intrometry::Sink</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a target="_parent" xlink:href="../intrometry_frontend/classintrometry_1_1SinkPIMPLBase.html" xlink:title=" ">
+<g id="a_Node000001"><a target="_parent" xlink:href="../@@PKG@@/classintrometry_1_1SinkPIMPLBase.html" xlink:title=" ">
 <polygon fill="white" stroke="#666666" points="279,-41 131,-41 131,0 279,0 279,-41"/>
 <text text-anchor="start" x="139" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00">intrometry::SinkPIMPLBase</text>
 <text text-anchor="start" x="139" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; sink::Parameters, sink</text>

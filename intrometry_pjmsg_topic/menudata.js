@@ -47,6 +47,5 @@ var menudata={children:[
 {text:"Variables",url:"functions_vars.html"}]}]},
 {text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"}]},
-{text:"Dependencies",url:"./pkg_dependency_graph.svg"},
-{text:"Reverse dependencies",url:"./pkg_reverse_dependency_graph.svg"},
+{text:"Dependencies",url:"../packages_intrometry_pjmsg_topic_recursive_all.svg"},
 {text:"Package index",url:"../index.html"}]}

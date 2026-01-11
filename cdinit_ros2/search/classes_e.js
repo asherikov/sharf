@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['observed_5fstates_5ft_0',['observed_states_t',['../../cdinit/structobserved__states__t.html',1,'']]],
+  ['observed_5fstates_5ft_0',['observed_states_t',['../../@@PKG@@/structobserved__states__t.html',1,'']]],
   ['observer_5fptr_1',['observer_ptr',['http://en.cppreference.com/w/cpp/experimental/observer_ptr.html',1,'std::experimental']]],
   ['ofstream_2',['ofstream',['http://en.cppreference.com/w/cpp/io/basic_ofstream.html',1,'std']]],
   ['once_5fflag_3',['once_flag',['http://en.cppreference.com/w/cpp/thread/once_flag.html',1,'std']]],
   ['optional_4',['optional',['http://en.cppreference.com/w/cpp/experimental/optional.html',1,'std::experimental::optional'],['http://en.cppreference.com/w/cpp/utility/optional.html',1,'std::optional']]],
-  ['options_5',['options',['../../cdinit/structoptions.html',1,'']]],
+  ['options_5',['options',['../../@@PKG@@/structoptions.html',1,'']]],
   ['ostream_6',['ostream',['http://en.cppreference.com/w/cpp/io/basic_ostream.html',1,'std']]],
   ['ostream_5fiterator_7',['ostream_iterator',['http://en.cppreference.com/w/cpp/iterator/ostream_iterator.html',1,'std']]],
   ['ostream_5fjoiner_8',['ostream_joiner',['http://en.cppreference.com/w/cpp/experimental/ostream_joiner.html',1,'std::experimental']]],

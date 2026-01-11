@@ -29,7 +29,6 @@ var menudata={children:[
 {text:"Namespace Members",url:"namespacemembers.html",children:[
 {text:"All",url:"namespacemembers.html",children:[
 {text:"a",url:"namespacemembers.html#index_a"},
-{text:"b",url:"namespacemembers.html#index_b"},
 {text:"c",url:"namespacemembers.html#index_c"},
 {text:"d",url:"namespacemembers.html#index_d"},
 {text:"e",url:"namespacemembers.html#index_e"},
@@ -51,15 +50,12 @@ var menudata={children:[
 {text:"w",url:"namespacemembers.html#index_w"}]},
 {text:"Functions",url:"namespacemembers_func.html",children:[
 {text:"a",url:"namespacemembers_func.html#index_a"},
-{text:"b",url:"namespacemembers_func.html#index_b"},
 {text:"d",url:"namespacemembers_func.html#index_d"},
-{text:"e",url:"namespacemembers_func.html#index_e"},
 {text:"f",url:"namespacemembers_func.html#index_f"},
 {text:"g",url:"namespacemembers_func.html#index_g"},
 {text:"i",url:"namespacemembers_func.html#index_i"},
 {text:"j",url:"namespacemembers_func.html#index_j"},
 {text:"l",url:"namespacemembers_func.html#index_l"},
-{text:"m",url:"namespacemembers_func.html#index_m"},
 {text:"n",url:"namespacemembers_func.html#index_n"},
 {text:"o",url:"namespacemembers_func.html#index_o"},
 {text:"p",url:"namespacemembers_func.html#index_p"},
@@ -243,6 +239,5 @@ var menudata={children:[
 {text:"Typedefs",url:"globals_type.html"},
 {text:"Enumerations",url:"globals_enum.html"},
 {text:"Macros",url:"globals_defs.html"}]}]},
-{text:"Dependencies",url:"./pkg_dependency_graph.svg"},
-{text:"Reverse dependencies",url:"./pkg_reverse_dependency_graph.svg"},
+{text:"Dependencies",url:"../packages_cdinit_recursive_all.svg"},
 {text:"Package index",url:"../index.html"}]}

@@ -97,13 +97,13 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">class </span>PjmsgTopicIntrometryFixture : <span class="keyword">public</span> ::testing::Test, <span class="keyword">public</span> <a class="code hl_class" href="classintrometry__tests_1_1SubscriberNode.html">intrometry_tests::SubscriberNode</a></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    {</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <a class="code hl_classRef" href="../intrometry_pjmsg_topic/classintrometry_1_1pjmsg__topic_1_1Sink.html">intrometry::pjmsg_topic::Sink</a> intrometry_sink_;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <a class="code hl_classRef" href="../@@PKG@@/classintrometry_1_1pjmsg__topic_1_1Sink.html">intrometry::pjmsg_topic::Sink</a> intrometry_sink_;</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        PjmsgTopicIntrometryFixture() : intrometry_sink_(<span class="stringliteral">&quot;IntrometryFixture&quot;</span>)</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        {</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            <a class="code hl_function" href="classintrometry__tests_1_1SubscriberNode.html#adbbc193aeb0ede7943037afb7cda90ac">intrometry_tests::SubscriberNode::initialize</a>(<span class="stringliteral">&quot;intrometryfixture&quot;</span>);</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            intrometry_sink_.<a class="code hl_functionRef" href="../intrometry_pjmsg_topic/classintrometry_1_1pjmsg__topic_1_1Sink.html#a0c560d53061e4f8c01479eddf471162e">initialize</a>();</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>            intrometry_sink_.<a class="code hl_functionRef" href="../@@PKG@@/classintrometry_1_1pjmsg__topic_1_1Sink.html#a0c560d53061e4f8c01479eddf471162e">initialize</a>();</div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        }</div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    };</div>
 <div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}  <span class="comment">// namespace</span></div>
@@ -132,7 +132,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="pjmsg__topic__intrometry_8cpp.html#a799ef4ca56a4c0456a2a4dd2bd472d91">   46</a></span><a class="code hl_function" href="pjmsg__topic__intrometry_8cpp.html#ad0a53429488e7e3f6c831fc3785d7033">TEST_F</a>(PjmsgTopicIntrometryFixture, ArilesPersistent)</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>{</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_class" href="classintrometry__tests_1_1ArilesDebug.html">intrometry_tests::ArilesDebug</a> debug{};</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    intrometry_sink_.assign(debug, <a class="code hl_classRef" href="../intrometry_frontend/classintrometry_1_1Source_1_1Parameters.html">intrometry::Source::Parameters</a>(<span class="comment">/*persistent_structure=*/</span><span class="keyword">true</span>));</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    intrometry_sink_.assign(debug, <a class="code hl_classRef" href="../@@PKG@@/classintrometry_1_1Source_1_1Parameters.html">intrometry::Source::Parameters</a>(<span class="comment">/*persistent_structure=*/</span><span class="keyword">true</span>));</div>
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    debug.vec_ = { 3.4, 2.2, 2.1 };</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordflow">for</span> (<a class="code hl_classRef" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> i = 0; i &lt; 3; ++i)</div>
@@ -152,7 +152,7 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>{</div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    <span class="keyword">const</span> <a class="code hl_class" href="classintrometry__tests_1_1ArilesDebug.html">intrometry_tests::ArilesDebug</a> debug0{};</div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keyword">const</span> <a class="code hl_class" href="classintrometry__tests_1_1ArilesDebug1.html">intrometry_tests::ArilesDebug1</a> debug1{};</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    intrometry_sink_.assignBatch(<a class="code hl_classRef" href="../intrometry_frontend/classintrometry_1_1Source_1_1Parameters.html">intrometry::Source::Parameters</a>(<span class="comment">/*persistent_structure=*/</span><span class="keyword">true</span>), debug0, debug1);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    intrometry_sink_.assignBatch(<a class="code hl_classRef" href="../@@PKG@@/classintrometry_1_1Source_1_1Parameters.html">intrometry::Source::Parameters</a>(<span class="comment">/*persistent_structure=*/</span><span class="keyword">true</span>), debug0, debug1);</div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keywordflow">for</span> (<a class="code hl_classRef" href="http://en.cppreference.com/w/cpp/types/size_t.html">std::size_t</a> i = 0; i &lt; 3; ++i)</div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    {</div>
@@ -175,9 +175,9 @@ $(document).ready(function() { init_codefold(0); });
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordflow">return</span> RUN_ALL_TESTS();</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>}</div>
 </div>
-<div class="ttc" id="aclassintrometry_1_1Source_1_1Parameters_html"><div class="ttname"><a href="../intrometry_frontend/classintrometry_1_1Source_1_1Parameters.html">intrometry::Source::Parameters</a></div></div>
-<div class="ttc" id="aclassintrometry_1_1pjmsg__topic_1_1Sink_html"><div class="ttname"><a href="../intrometry_pjmsg_topic/classintrometry_1_1pjmsg__topic_1_1Sink.html">intrometry::pjmsg_topic::Sink</a></div></div>
-<div class="ttc" id="aclassintrometry_1_1pjmsg__topic_1_1Sink_html_a0c560d53061e4f8c01479eddf471162e"><div class="ttname"><a href="../intrometry_pjmsg_topic/classintrometry_1_1pjmsg__topic_1_1Sink.html#a0c560d53061e4f8c01479eddf471162e">intrometry::pjmsg_topic::Sink::initialize</a></div><div class="ttdeci">bool initialize()</div></div>
+<div class="ttc" id="aclassintrometry_1_1Source_1_1Parameters_html"><div class="ttname"><a href="../@@PKG@@/classintrometry_1_1Source_1_1Parameters.html">intrometry::Source::Parameters</a></div></div>
+<div class="ttc" id="aclassintrometry_1_1pjmsg__topic_1_1Sink_html"><div class="ttname"><a href="../@@PKG@@/classintrometry_1_1pjmsg__topic_1_1Sink.html">intrometry::pjmsg_topic::Sink</a></div></div>
+<div class="ttc" id="aclassintrometry_1_1pjmsg__topic_1_1Sink_html_a0c560d53061e4f8c01479eddf471162e"><div class="ttname"><a href="../@@PKG@@/classintrometry_1_1pjmsg__topic_1_1Sink.html#a0c560d53061e4f8c01479eddf471162e">intrometry::pjmsg_topic::Sink::initialize</a></div><div class="ttdeci">bool initialize()</div></div>
 <div class="ttc" id="aclassintrometry__tests_1_1ArilesDebug1_html"><div class="ttname"><a href="classintrometry__tests_1_1ArilesDebug1.html">intrometry_tests::ArilesDebug1</a></div><div class="ttdef"><b>Definition</b> <a href="common_8h_source.html#l00035">common.h:36</a></div></div>
 <div class="ttc" id="aclassintrometry__tests_1_1ArilesDebug_html"><div class="ttname"><a href="classintrometry__tests_1_1ArilesDebug.html">intrometry_tests::ArilesDebug</a></div><div class="ttdef"><b>Definition</b> <a href="common_8h_source.html#l00023">common.h:24</a></div></div>
 <div class="ttc" id="aclassintrometry__tests_1_1SubscriberNode_html"><div class="ttname"><a href="classintrometry__tests_1_1SubscriberNode.html">intrometry_tests::SubscriberNode</a></div><div class="ttdef"><b>Definition</b> <a href="pjmsg__topic__common_8h_source.html#l00059">pjmsg_topic_common.h:60</a></div></div>

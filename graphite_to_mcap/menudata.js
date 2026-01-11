@@ -29,6 +29,5 @@ var menudata={children:[
 {text:"File Members",url:"globals.html",children:[
 {text:"All",url:"globals.html"},
 {text:"Functions",url:"globals_func.html"}]}]},
-{text:"Dependencies",url:"./pkg_dependency_graph.svg"},
-{text:"Reverse dependencies",url:"./pkg_reverse_dependency_graph.svg"},
+{text:"Dependencies",url:"../packages_graphite_to_mcap_recursive_all.svg"},
 {text:"Package index",url:"../index.html"}]}

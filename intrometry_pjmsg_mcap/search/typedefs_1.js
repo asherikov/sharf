@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['key_0',['Key',['../../intrometry_frontend/classintrometry_1_1backend_1_1SourceContainer.html#af643cec9fda0b8cfcacb05c85f08b127',1,'intrometry::backend::SourceContainer']]]
+  ['key_0',['Key',['../../@@PKG@@/classintrometry_1_1backend_1_1SourceContainer.html#af643cec9fda0b8cfcacb05c85f08b127',1,'intrometry::backend::SourceContainer']]]
 ];

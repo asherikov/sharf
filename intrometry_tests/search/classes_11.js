@@ -8,7 +8,7 @@ var searchData=
   ['ranlux24_5fbase_5',['ranlux24_base',['http://en.cppreference.com/w/cpp/numeric/random/subtract_with_carry_engine.html',1,'std']]],
   ['ranlux48_6',['ranlux48',['http://en.cppreference.com/w/cpp/numeric/random/discard_block_engine.html',1,'std']]],
   ['ranlux48_5fbase_7',['ranlux48_base',['http://en.cppreference.com/w/cpp/numeric/random/subtract_with_carry_engine.html',1,'std']]],
-  ['ratetimer_8',['RateTimer',['../../intrometry_frontend/classintrometry_1_1backend_1_1RateTimer.html',1,'intrometry::backend']]],
+  ['ratetimer_8',['RateTimer',['../../@@PKG@@/classintrometry_1_1backend_1_1RateTimer.html',1,'intrometry::backend']]],
   ['ratio_9',['ratio',['http://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
   ['ratio_5fadd_10',['ratio_add',['http://en.cppreference.com/w/cpp/numeric/ratio/ratio_add.html',1,'std']]],
   ['ratio_5fdivide_11',['ratio_divide',['http://en.cppreference.com/w/cpp/numeric/ratio/ratio_divide.html',1,'std']]],
@@ -53,6 +53,6 @@ var searchData=
   ['result_5fof_50',['result_of',['http://en.cppreference.com/w/cpp/types/result_of.html',1,'std']]],
   ['result_5fof_5ft_51',['result_of_t',['http://en.cppreference.com/w/cpp/types/result_of.html',1,'std']]],
   ['reverse_5fiterator_52',['reverse_iterator',['http://en.cppreference.com/w/cpp/iterator/reverse_iterator.html',1,'std']]],
-  ['roslogger_53',['ROSLogger',['../../intrometry_pjmsg_topic/classintrometry_1_1pjmsg__topic_1_1ROSLogger.html',1,'intrometry::pjmsg_topic']]],
+  ['roslogger_53',['ROSLogger',['../../@@PKG@@/classintrometry_1_1pjmsg__topic_1_1ROSLogger.html',1,'intrometry::pjmsg_topic']]],
   ['runtime_5ferror_54',['runtime_error',['http://en.cppreference.com/w/cpp/error/runtime_error.html',1,'std']]]
 ];

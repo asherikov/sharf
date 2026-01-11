@@ -20,7 +20,7 @@ var searchData=
   ['codecvt_5futf8_5futf16_17',['codecvt_utf8_utf16',['http://en.cppreference.com/w/cpp/locale/codecvt_utf8_utf16.html',1,'std']]],
   ['collate_18',['collate',['http://en.cppreference.com/w/cpp/locale/collate.html',1,'std']]],
   ['collate_5fbyname_19',['collate_byname',['http://en.cppreference.com/w/cpp/locale/collate_byname.html',1,'std']]],
-  ['combosink_20',['ComboSink',['../../intrometry_frontend/classintrometry_1_1ComboSink.html',1,'intrometry']]],
+  ['combosink_20',['ComboSink',['../../@@PKG@@/classintrometry_1_1ComboSink.html',1,'intrometry']]],
   ['common_5fcomparison_5fcategory_21',['common_comparison_category',['http://en.cppreference.com/w/cpp/utility/compare/common_comparison_category.html',1,'std']]],
   ['common_5fcomparison_5fcategory_5ft_22',['common_comparison_category_t',['http://en.cppreference.com/w/cpp/utility/compare/common_comparison_category.html',1,'std']]],
   ['common_5freference_23',['common_reference',['http://en.cppreference.com/w/cpp/types/common_reference.html',1,'std']]],

@@ -26,6 +26,5 @@ var menudata={children:[
 {text:"Main Page",url:"index.html"},
 {text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"}]},
-{text:"Dependencies",url:"./pkg_dependency_graph.svg"},
-{text:"Reverse dependencies",url:"./pkg_reverse_dependency_graph.svg"},
+{text:"Dependencies",url:"../packages_ariles2_core_ws_recursive_all.svg"},
 {text:"Package index",url:"../index.html"}]}

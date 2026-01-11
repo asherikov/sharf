@@ -69,6 +69,5 @@ var menudata={children:[
 {text:"All",url:"globals.html"},
 {text:"Functions",url:"globals_func.html"},
 {text:"Macros",url:"globals_defs.html"}]}]},
-{text:"Dependencies",url:"./pkg_dependency_graph.svg"},
-{text:"Reverse dependencies",url:"./pkg_reverse_dependency_graph.svg"},
+{text:"Dependencies",url:"../packages_thread_supervisor_recursive_all.svg"},
 {text:"Package index",url:"../index.html"}]}

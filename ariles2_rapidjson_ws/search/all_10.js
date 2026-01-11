@@ -1,7 +1,7 @@
 var searchData=
 [
   ['p_0',['p',['http://en.cppreference.com/w/cpp/numeric/random/bernoulli_distribution/p.html',1,'std::bernoulli_distribution::p()'],['http://en.cppreference.com/w/cpp/numeric/random/binomial_distribution/params.html',1,'std::binomial_distribution::p()'],['http://en.cppreference.com/w/cpp/numeric/random/geometric_distribution/p.html',1,'std::geometric_distribution::p()'],['http://en.cppreference.com/w/cpp/numeric/random/negative_binomial_distribution/params.html',1,'std::negative_binomial_distribution::p()']]],
-  ['package_2exml_1',['package.xml',['../package_8xml.html',1,'(Global Namespace)'],['../../ariles2_core_ws/package_8xml.html',1,'(Global Namespace)']]],
+  ['package_2exml_1',['package.xml',['../package_8xml.html',1,'(Global Namespace)'],['../../@@PKG@@/package_8xml.html',1,'(Global Namespace)']]],
   ['packaged_5ftask_2',['packaged_task',['http://en.cppreference.com/w/cpp/thread/packaged_task/packaged_task.html',1,'std::packaged_task::packaged_task()'],['http://en.cppreference.com/w/cpp/thread/packaged_task.html',1,'std::packaged_task']]],
   ['pair_3',['pair',['http://en.cppreference.com/w/cpp/utility/pair.html',1,'std::pair'],['http://en.cppreference.com/w/cpp/utility/pair/pair.html',1,'std::pair::pair()']]],
   ['parallel_5fpolicy_4',['parallel_policy',['http://en.cppreference.com/w/cpp/algorithm/execution_policy_tag_t.html',1,'std::execution']]],

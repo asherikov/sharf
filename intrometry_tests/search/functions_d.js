@@ -14,7 +14,7 @@ var searchData=
   ['make_5fobj_5fusing_5fallocator_11',['make_obj_using_allocator',['http://en.cppreference.com/w/cpp/memory/make_obj_using_allocator.html',1,'std']]],
   ['make_5foptional_12',['make_optional',['http://en.cppreference.com/w/cpp/experimental/optional/make_optional.html',1,'std::experimental::make_optional()'],['http://en.cppreference.com/w/cpp/utility/optional/make_optional.html',1,'std::make_optional(T... args)']]],
   ['make_5fpair_13',['make_pair',['http://en.cppreference.com/w/cpp/utility/pair/make_pair.html',1,'std']]],
-  ['make_5fpimpl_14',['make_pimpl',['../../intrometry_frontend/classintrometry_1_1SinkPIMPLBase.html#a413134d18ee008fb4274b42953494215',1,'intrometry::SinkPIMPLBase']]],
+  ['make_5fpimpl_14',['make_pimpl',['../../@@PKG@@/classintrometry_1_1SinkPIMPLBase.html#a413134d18ee008fb4274b42953494215',1,'intrometry::SinkPIMPLBase']]],
   ['make_5fpreferred_15',['make_preferred',['http://en.cppreference.com/w/cpp/experimental/fs/path/make_preferred.html',1,'std::experimental::filesystem::path::make_preferred()'],['http://en.cppreference.com/w/cpp/filesystem/path/make_preferred.html',1,'std::filesystem::path::make_preferred()']]],
   ['make_5fready_5fat_5fthread_5fexit_16',['make_ready_at_thread_exit',['http://en.cppreference.com/w/cpp/thread/packaged_task/make_ready_at_thread_exit.html',1,'std::packaged_task']]],
   ['make_5freverse_5fiterator_17',['make_reverse_iterator',['http://en.cppreference.com/w/cpp/iterator/make_reverse_iterator.html',1,'std']]],

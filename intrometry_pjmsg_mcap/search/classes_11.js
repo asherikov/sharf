@@ -8,7 +8,7 @@ var searchData=
   ['ranlux24_5fbase_5',['ranlux24_base',['http://en.cppreference.com/w/cpp/numeric/random/subtract_with_carry_engine.html',1,'std']]],
   ['ranlux48_6',['ranlux48',['http://en.cppreference.com/w/cpp/numeric/random/discard_block_engine.html',1,'std']]],
   ['ranlux48_5fbase_7',['ranlux48_base',['http://en.cppreference.com/w/cpp/numeric/random/subtract_with_carry_engine.html',1,'std']]],
-  ['ratetimer_8',['RateTimer',['../../intrometry_frontend/classintrometry_1_1backend_1_1RateTimer.html',1,'intrometry::backend']]],
+  ['ratetimer_8',['RateTimer',['../../@@PKG@@/classintrometry_1_1backend_1_1RateTimer.html',1,'intrometry::backend']]],
   ['ratio_9',['ratio',['http://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',1,'std']]],
   ['ratio_5fadd_10',['ratio_add',['http://en.cppreference.com/w/cpp/numeric/ratio/ratio_add.html',1,'std']]],
   ['ratio_5fdivide_11',['ratio_divide',['http://en.cppreference.com/w/cpp/numeric/ratio/ratio_divide.html',1,'std']]],
