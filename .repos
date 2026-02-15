@@ -2,7 +2,7 @@ repositories:
     ariles:
         type: git
         url: https://github.com/asherikov/ariles.git
-        version: pkg_ws_2
+        version: head_2
     cdinit:
         type: git
         url: https://github.com/asherikov/cdinit.git
