@@ -14,7 +14,6 @@ jobs:
             distro: noble
             workspace_github_repo: asherikov/sharf
             workspace_version: ${{ github.sha }}
-            build_target: "PKG='ariles2_graphviz_ws ariles2_namevalue2_ws ariles2_octave_ws ariles2_pugixml_ws ariles2_ros2param_ws ariles2_yamlcpp_ws cdinit_ros2 graphite_to_mcap intrometry_frontend intrometry_pjmsg_mcap intrometry_pjmsg_topic intrometry_tests pjmsg_mcap_wrapper'"
 
     gh_pages:
         uses: asherikov/ccws/.github/workflows/reusable_dox.yaml@master
@@ -32,6 +31,5 @@ jobs:
             workspace_github_repo: asherikov/sharf
             workspace_version: ${{ github.sha }}
             profile: cross_arm64
-            build_target: "PKG='ariles2_graphviz_ws ariles2_namevalue2_ws ariles2_octave_ws ariles2_pugixml_ws ariles2_ros2param_ws ariles2_yamlcpp_ws cdinit_ros2 graphite_to_mcap intrometry_frontend intrometry_pjmsg_mcap intrometry_pjmsg_topic intrometry_tests pjmsg_mcap_wrapper'"
         secrets:
             cloudsmith_token: ${{ secrets.CLOUDSMITH_API_KEY }}
