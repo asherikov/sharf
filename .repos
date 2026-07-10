@@ -23,3 +23,7 @@ repositories:
         type: git
         url: https://github.com/asherikov/thread_supervisor.git
         version: master
+    robot_model_server:
+        type: git
+        url: https://github.com/asherikov/robot_model_server.git
+        version: main

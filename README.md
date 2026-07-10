@@ -20,15 +20,15 @@ Overview
         Ubuntu package
     </td>
     <td align="center">
-        22.04 (jammy)
+        amd64
     </td>
     <td align="center">
-        24.04 (noble)
+        arm64
     </td>
   </tr>
   <tr>
     <td align="center">
-        amd64
+        22.04 (jammy)
     </td>
     <td align="center">
         <a href="https://cloudsmith.io/~asherikov-aV7/repos/all/packages/detail/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fjammy;t=binary/">
@@ -36,20 +36,35 @@ Overview
         </a>
     </td>
     <td align="center">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+        24.04 (noble)
+    </td>
+    <td align="center">
         <a href="https://cloudsmith.io/~asherikov-aV7/repos/all/packages/detail/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fnoble;t=binary/">
         <img src="https://api-prd.cloudsmith.io/v1/badges/version/asherikov-aV7/all/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fnoble;t=binary/?render=true&show_latest=true" alt="Latest version of 'sharf' @ Cloudsmith">
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://cloudsmith.io/~asherikov-aV7/repos/all/packages/detail/deb/sharf--cross-arm64--all/latest/a=arm64;xc=main;d=ubuntu%252Fnoble;t=binary/">
+        <img src="https://api-prd.cloudsmith.io/v1/badges/version/asherikov-aV7/all/deb/sharf--cross-arm64--all/latest/a=arm64;d=ubuntu%252Fnoble;t=binary/?render=true&show_latest=true" alt="Latest version of 'sharf' @ Cloudsmith">
         </a>
     </td>
   </tr>
   <tr>
     <td align="center">
-        arm64
+        26.04 (resolute)
     </td>
     <td align="center">
+        <a href="https://cloudsmith.io/~asherikov-aV7/repos/all/packages/detail/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fresolute;t=binary/">
+        <img src="https://api-prd.cloudsmith.io/v1/badges/version/asherikov-aV7/all/deb/sharf--reldebug--all/latest/a=amd64;d=ubuntu%252Fresolute;t=binary/?render=true&show_latest=true" alt="Latest version of 'sharf' @ Cloudsmith">
+        </a>
     </td>
     <td align="center">
-        <a href="https://cloudsmith.io/~asherikov-aV7/repos/all/packages/detail/deb/sharf--cross-arm64--all/latest/a=arm64;xc=main;d=ubuntu%252Fnoble;t=binary/">
-        <img src="https://api-prd.cloudsmith.io/v1/badges/version/asherikov-aV7/all/deb/sharf--cross-arm64--all/latest/a=arm64;d=ubuntu%252Fnoble;t=binary/?render=true&show_latest=true" alt="Latest version of 'sharf' @ Cloudsmith">
+        <a href="https://cloudsmith.io/~asherikov-aV7/repos/all/packages/detail/deb/sharf--cross-arm64--all/latest/a=arm64;xc=main;d=ubuntu%252Fresolute;t=binary/">
+        <img src="https://api-prd.cloudsmith.io/v1/badges/version/asherikov-aV7/all/deb/sharf--cross-arm64--all/latest/a=arm64;d=ubuntu%252Fresolute;t=binary/?render=true&show_latest=true" alt="Latest version of 'sharf' @ Cloudsmith">
         </a>
     </td>
   </tr>

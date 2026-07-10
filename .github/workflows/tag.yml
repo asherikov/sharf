@@ -7,7 +7,7 @@ jobs:
     gh_pages:
         uses: asherikov/ccws/.github/workflows/reusable_dox.yaml@master
         with:
-            distro: noble
+            distro: resolute
             version: ${{ github.ref_name }}
 #            push: false
         permissions:
@@ -43,3 +43,24 @@ jobs:
             profile: cross_arm64
         secrets:
             cloudsmith_token: ${{ secrets.CLOUDSMITH_API_KEY }}
+
+    deb_resolute:
+        uses: asherikov/ccws/.github/workflows/reusable_deb.yaml@master
+        with:
+            distro: resolute
+            workspace_github_repo: asherikov/sharf
+            workspace_version: ${{ github.sha }}
+            cloudsmith_repo: asherikov-aV7/all/ubuntu/resolute
+        secrets:
+            cloudsmith_token: ${{ secrets.CLOUDSMITH_API_KEY }}
+
+#    deb_resolute_arm64:
+#        uses: asherikov/ccws/.github/workflows/reusable_deb.yaml@master
+#        with:
+#            distro: resolute
+#            workspace_github_repo: asherikov/sharf
+#            workspace_version: ${{ github.sha }}
+#            cloudsmith_repo: asherikov-aV7/all/ubuntu/resolute
+#            profile: cross_arm64
+#        secrets:
+#            cloudsmith_token: ${{ secrets.CLOUDSMITH_API_KEY }}
